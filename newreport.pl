@@ -25,7 +25,7 @@ my $progressData = "progress.dat";
 my $riskGnu = "risk.gnu";
 my $progressGnu = "progress.gnu";
 
-push @urls, "https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261";
+push @urls, "https://jira.digital.homeoffice.gov.uk/issues/?jql=project%20%3D%20%22Animal%20Sciences%22%20and%20sprint%20in%20openSprints()";
 push @files, "$sprint";
 push @urls,"https://trello.com/b/gDQdE01u/asl-roadmap";
 push @files, "$roadmap";
