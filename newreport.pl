@@ -83,19 +83,21 @@ $file->spew_utf8( $data );
 
 
 
-system ("pkill -f firefox");
+##system ("pkill -f firefox");
 
 while (my $link = pop @urls)
 {
 	my $fileFragment = pop @files;
 	$fileFragment =~ s/XXXDATEXXX/$day$month$year/g;
 
-	system ("firefox $link&");
-	system("sleep 5");
-	system("gnome-screenshot -B -w *firefox* -f $GRAPH_DIR$fileFragment.jpg");
+##	system ("firefox $link&");
+##	system("sleep 5");
+##	system("gnome-screenshot -B -w *firefox* -f $GRAPH_DIR$fileFragment.jpg");
+	system("chromium-browser --profile-directory=Default --print-to-pdf=\"$GRAPH_DIR$fileFragment.pdf\" $link");
+		
 }
 
-system ("pkill -f firefox");
+##system ("pkill -f firefox");
 
 ## run the script that gets the diagrams
 ## stop if there isn't a data entry in the .dat file for the date that's given
@@ -115,6 +117,8 @@ $data = $file->slurp_utf8;
 system("gnuplot $progressGnu");
 $progress =~ s/XXXDATEXXX/$day$month$year/g;
 system("cp $progressOut $progress");
+
+die;
 
 chdir ("..");
 ## muck around with the index file
