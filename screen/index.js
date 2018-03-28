@@ -9,9 +9,11 @@ async function run() {
 	  var script_path = process.argv[1]; 
 	  var username = process.argv[2]; 
 	  var password = process.argv[3];
-	  var url = "https://jira.digital.homeoffice.gov.uk/issues/?jql=project%20%3D%20%22Animal%20Sciences%22%20and%20Sprint%20in%20openSprints()";
+	  var navUrl = process.argv[4];
+	  var url = process.argv[5];
+	  var outputFile = process.argv[6];
 	  
-	  await page.goto('https://jira.digital.homeoffice.gov.uk/login.jsp');
+	  await page.goto(navUrl);
 	  const USERNAME_SELECTOR = '#login-form-username';
 	  const PASSWORD_SELECTOR = '#login-form-password';
 	  const BUTTON_SELECTOR = '#login-form-submit';
@@ -27,7 +29,7 @@ async function run() {
 	  await page.goto(url);
 	  await page.waitFor(2*1000);
 
-	  await page.screenshot({ path: 'screenshots/url.png', fullPage:true });
+	  await page.screenshot({ path: outputFile, fullPage:true });
 	  browser.close();
 }
 
