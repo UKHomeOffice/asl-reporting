@@ -13,10 +13,6 @@ my $index = "index.md";
 my $GRAPH_DIR = "graphs/";
 my @urls;
 my @files;
-my @nav_urls;
-my @usernameBoxes;
-my @passwordBoxes;
-my @buttonBoxes;
 my $progress = "progressXXXDATEXXX.png";
 my $progressOut = "progress.png";
 my $risk = "riskXXXDATEXXX.png";
@@ -30,12 +26,7 @@ my $riskGnu = "risk.gnu";
 my $progressGnu = "progress.gnu";
 
 push @urls, "https://jira.digital.homeoffice.gov.uk/issues/?jql=project%20%3D%20%22Animal%20Sciences%22%20and%20sprint%20in%20openSprints()";
-push @nav_urls, "https://jira.digital.homeoffice.gov.uk/login.jsp?";
-push @usernameBoxes, '#login-form-username';
-push @passwordBoxes, '#login-form-password';
-push @buttonBoxes, '#login-form-submit';
 push @files, "$sprint";
-
 push @urls,"https://trello.com/b/gDQdE01u/asl-roadmap";
 push @files, "$roadmap";
 push @urls, "https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery";
@@ -90,17 +81,26 @@ $data =~ s/RRRDATE_SHORT/$day$month$year/g;
 $data =~ s/RRRDATE_LONG/$humanDate/g;
 $file->spew_utf8( $data );
 
-my $nav_url = pop @nav_urls;
-my $url = pop @urls;
-my $usernameBox = pop @usernameBoxes;
-my $passwordBox = pop @passwordBoxes;
-my $buttonBox = pop @buttonBoxes;
-my $fileFragment = pop @files;
-$fileFragment =~ s/XXXDATEXXX/$day$month$year/g;
-$fileFragment = "$GRAPH_DIR$fileFragment.jpg";
 
-system "nodejs screen/index.js mstringer animals1 $nav_url $url $usernameBox $passwordBox $fileFragment";
 
+##system ("pkill -f firefox");
+
+while (my $link = pop @urls)
+{
+	my $fileFragment = pop @files;
+	$fileFragment =~ s/XXXDATEXXX/$day$month$year/g;
+
+##	system ("firefox $link&");
+##	system("sleep 5");
+##	system("gnome-screenshot -B -w *firefox* -f $GRAPH_DIR$fileFragment.jpg");
+	system("chromium-browser --profile-directory=Default --print-to-pdf=\"$GRAPH_DIR$fileFragment.pdf\" $link");
+		
+}
+
+##system ("pkill -f firefox");
+
+## run the script that gets the diagrams
+## stop if there isn't a data entry in the .dat file for the date that's given
 chdir ("graphs");
 $filename = $riskData;
 $file = path($filename);
@@ -118,7 +118,7 @@ system("gnuplot $progressGnu");
 $progress =~ s/XXXDATEXXX/$day$month$year/g;
 system("cp $progressOut $progress");
 
-##die;
+die;
 
 chdir ("..");
 ## muck around with the index file
