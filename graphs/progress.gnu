@@ -9,7 +9,7 @@ set style histogram rowstacked
 set boxwidth 0.5
 set style fill solid 1.0 border -1
 set ytics 10 nomirror
-set yrange [:200]
+set yrange [:250]
 set ylabel "Number of Issues"
 set ytics 10
 
