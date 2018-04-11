@@ -4,6 +4,7 @@ set output 'weather.png'
 set xdata time
 set timefmt "%d/%m/%Y"
 set xtics rotate
+set yrange [1:4]
 set xrange ["01/01/2018":"30/06/2018"]
 set xtics "01/01/2018", 1209600, "30/06/2018"
 set xtics font "Serif,10"
