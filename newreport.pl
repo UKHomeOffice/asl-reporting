@@ -25,8 +25,6 @@ my $progressData = "progress.dat";
 my $riskGnu = "risk.gnu";
 my $progressGnu = "progress.gnu";
 
-push @urls, "https://jira.digital.homeoffice.gov.uk/issues/?jql=project%20%3D%20%22Animal%20Sciences%22%20and%20sprint%20in%20openSprints()";
-push @files, "$sprint";
 push @urls,"https://trello.com/b/gDQdE01u/asl-roadmap";
 push @files, "$roadmap";
 push @urls, "https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery";
@@ -97,6 +95,9 @@ system("gnome-screenshot -B -w *firefox* -f $GRAPH_DIR$fileFragment.jpg");
 }
 
 system ("pkill -f firefox");
+
+## get the screenshot of the tickets in the sprint 
+system ("bash getscreenshot.sh");
 
 ## run the script that gets the diagrams
 ## stop if there isn't a data entry in the .dat file for the date that's given
