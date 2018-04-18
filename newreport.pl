@@ -97,7 +97,9 @@ system("gnome-screenshot -B -w *firefox* -f $GRAPH_DIR$fileFragment.jpg");
 system ("pkill -f firefox");
 
 ## get the screenshot of the tickets in the sprint 
-system ("bash getscreenshot.sh");
+my $screenshotURL = "\"https://jira.digital.homeoffice.gov.uk/issues/?jql=Project%20%3D%20%22Animal%20Sciences%22%20AND%20Sprint%20in%20openSprints()%20ORDER%20BY%20status%20DESC\"";
+
+system ("bash getscreenshot.sh $screenshotURL");
 
 ## run the script that gets the diagrams
 ## stop if there isn't a data entry in the .dat file for the date that's given
