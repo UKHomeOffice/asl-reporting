@@ -1,2 +1,5 @@
 https://jira.digital.homeoffice.gov.uk/issues/?jql=Project%20%3D%20%22Animal%20Sciences%22%20and%20status%20not%20in%20(%22In%20Progress%22%2C%20Done%2C%20Cancelled%2C%20Archived)%20and%20labels%20!%3D%20%22Risk%22
 
+https://jira.digital.homeoffice.gov.uk/issues/?jql=Project%20%3D%20%22Animal%20Sciences%22%20and%20status%20in%20(%22In%20Progress%22)%20and%20labels%20!%3D%20%22Risk%22
+
+https://jira.digital.homeoffice.gov.uk/issues/?jql=Project%20%3D%20%22Animal%20Sciences%22%20and%20status%20in%20(Done)%20and%20labels%20!%3D%20%22Risk%22
