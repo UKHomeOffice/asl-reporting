@@ -2,6 +2,7 @@ use strict;
 use warnings;
 use 5.010;
 use Path::Tiny qw(path);
+use File::Copy "cp";
 $ENV{MOZ_DISABLE_AUTO_SAFE_MODE} = '1'; 
 
 my @st_nd_rd_th= ("th","st", "nd", "rd", "th", "th", "th", "th", "th", "th");
@@ -11,8 +12,12 @@ my $TEMPLATE_FILE = "templateReport.md";
 my $REPORT_NAME = "reportRRR_DATE.md";
 my $index = "index.md";
 my $GRAPH_DIR = "graphs/";
+my $SCREENSHOT_DIR = "../scrsht/screenshots/";
+my $screenshot = "url.png";
 my @urls;
 my @files;
+my @urls_js; #urls that we'll take the screenshot using a javascript program
+my @files_js; #ditto for files
 my $progress = "progressXXXDATEXXX.png";
 my $progressOut = "progress.png";
 my $risk = "riskXXXDATEXXX.png";
@@ -25,6 +30,11 @@ my $progressData = "progress.dat";
 my $riskGnu = "risk.gnu";
 my $progressGnu = "progress.gnu";
 
+# get the screenshot of the tickets in the sprint 
+my $screenshotURL = "\"https://jira.digital.homeoffice.gov.uk/issues/?jql=Project%20%3D%20%22Animal%20Sciences%22%20AND%20Sprint%20in%20openSprints()%20ORDER%20BY%20status%20DESC\"";
+
+push @urls_js, "$screenshotURL";
+push @files_js, "$sprint";
 push @urls,"https://trello.com/b/gDQdE01u/asl-roadmap";
 push @files, "$roadmap";
 push @urls, "https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery";
@@ -32,6 +42,8 @@ push @files, "$riskRegister";
 
 
 my $date = shift;
+my $flags = shift;
+
 $date || die "Sorry no date provided";
 my $day;
 my $month;
@@ -59,6 +71,8 @@ my $humanDate = $singleDay.$st_nd_rd_th[$dayAdd]." ".$monthText[$month-1]." ".$y
 
 
 print "Human Date is $humanDate\n";
+if ($flags  =~ /.*s.*/)
+{goto SCREENSHOT;}
 
 ##copy the template to a new file with the new date
 $REPORT_NAME =~ s/RRR_DATE/$day$month$year/;
@@ -79,8 +93,6 @@ $data =~ s/RRRDATE_SHORT/$day$month$year/g;
 $data =~ s/RRRDATE_LONG/$humanDate/g;
 $file->spew_utf8( $data );
 
-
-
 system ("pkill -f firefox");
 
 while (my $link = pop @urls)
@@ -96,10 +108,17 @@ system("gnome-screenshot -B -w *firefox* -f $GRAPH_DIR$fileFragment.jpg");
 
 system ("pkill -f firefox");
 
-## get the screenshot of the tickets in the sprint 
-my $screenshotURL = "\"https://jira.digital.homeoffice.gov.uk/issues/?jql=Project%20%3D%20%22Animal%20Sciences%22%20AND%20Sprint%20in%20openSprints()%20ORDER%20BY%20status%20DESC\"";
+SCREENSHOT:
+## get the screenshot of the tickets in the sprint
+my $local_url = pop @urls_js; 
+my $local_file = pop @files_js;
+$local_file =~ s/XXXDATEXXX/$day$month$year/g;
 
 system ("bash getscreenshot.sh $screenshotURL");
+
+-e "$SCREENSHOT_DIR$screenshot" or die "Screenshot file doesn't exist.";
+
+cp("$SCREENSHOT_DIR$screenshot", "$GRAPH_DIR$local_file.png") || die "file copy failed";
 
 ## run the script that gets the diagrams
 ## stop if there isn't a data entry in the .dat file for the date that's given
