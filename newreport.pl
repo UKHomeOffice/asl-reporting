@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use 5.010;
-##use Path::Tiny qw(path);
+use Path::Tiny qw(path);
 use File::Copy "cp";
 $ENV{MOZ_DISABLE_AUTO_SAFE_MODE} = '1'; 
 
@@ -87,7 +87,7 @@ else
 
 ## open the new file
 my $filename = $REPORT_NAME;
-my $file = $filename;
+my $file = path($filename);
 my $data = $file->slurp_utf8;
 $data =~ s/RRRDATE_SHORT/$day$month$year/g;
 $data =~ s/RRRDATE_LONG/$humanDate/g;
