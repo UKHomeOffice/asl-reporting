@@ -1,8 +1,13 @@
 use strict;
 use warnings;
+use Cwd;
+use lib cwd;
+
 use 5.010;
 use Path::Tiny qw(path);
 use File::Copy "cp";
+use Days;
+
 $ENV{MOZ_DISABLE_AUTO_SAFE_MODE} = '1'; 
 
 my @st_nd_rd_th= ("th","st", "nd", "rd", "th", "th", "th", "th", "th", "th");
@@ -48,6 +53,24 @@ $date || die "Sorry no date provided";
 my $day;
 my $month;
 my $year;
+
+my $dayCount = numberOfDaysIncremental("07022018", "$date");
+
+print "Number of days since project started = ".$dayCount;
+print "Weeks since project started = ".($dayCount/7);
+print "Fortnights since project started = ". ($dayCount/14);
+print "So the sprint number is".(($dayCount/14)+1);
+my $sprintNumber = ($dayCount/14)+1;
+my $roundedSprintNumber = int $sprintNumber;
+my $midSprint = !($sprintNumber == $roundedSprintNumber);
+my $midSprintString = "";
+if($midSprint)
+{
+	$midSprintString = " - mid-sprint";
+}
+
+print "Mid sprint string is: $midSprintString";
+
 $date =~ /(\d\d)(\d\d)(\d\d\d\d)/ || die "Invalid date format";
 $day = $1;
 $month = $2;
@@ -146,7 +169,7 @@ system("cp $index $index.bak");
 $filename = $index;
 $file = path($filename);
 $data = $file->slurp_utf8;
-$data =~ s/##\s+/## [Report $humanDate]($REPORT_NAME)\n\n/g;
+$data =~ s/##\s+/## [Report $humanDate - Sprint $roundedSprintNumber $midSprintString]($REPORT_NAME)\n\n/g;
 $file->spew_utf8( $data );
 
 print "All the automated stuff is done - now you just need to add the content\n";
