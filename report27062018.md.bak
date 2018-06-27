@@ -35,21 +35,8 @@ We have added two potential risks to the risk register to be discussed at next m
 Our goals for the sprint are
 * Develop working software for add/remove room from external users
 * Design iterations of inbox and amendment journeys for all views
-* User research with inspectors for add a room as part of amending an establishment licence
+* User research with inspectors for add a room as part of amending an establishment licence* RRR_TEXT_FILL
 
 ## Sample Design Prototype
-* Links to demonstrated working software:
 
-Username: holc
-
-Password: holc
-
-<a href="https://public-ui.notprod.asl.homeoffice.gov.uk/"><img src="graphs/holc.jpg" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
-
-
-Username: inspector
-
-Password: inspector
-
-<a href="https://inspector-ui.notprod.asl.homeoffice.gov.uk/"><img src="graphs/inspector.jpg" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
 
