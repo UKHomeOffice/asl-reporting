@@ -124,7 +124,7 @@ while (my $link = pop @urls)
 	$fileFragment =~ s/XXXDATEXXX/$day$month$year/g;
 
 system ("firefox $link&");
-system("sleep 5");
+system("sleep 15");
 system("gnome-screenshot -B -w *firefox* -f $GRAPH_DIR$fileFragment.jpg");
 		
 }
