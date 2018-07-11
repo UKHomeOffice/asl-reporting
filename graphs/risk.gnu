@@ -4,8 +4,8 @@ set output 'risk.png'
 set xdata time
 set timefmt "%d/%m/%Y"
 set xtics rotate
-set xrange ["01/01/2018":"30/06/2018"]
+set xrange ["01/01/2018":"30/12/2018"]
 set yrange ["0":"12000"]
-set xtics "01/01/2018", 1209600, "30/06/2018"
+set xtics "01/01/2018", 1209600, "30/12/2018"
 set xtics font "Serif,10"
 plot "risk.dat" using 1:2 with lines title "Risk Exposure"
