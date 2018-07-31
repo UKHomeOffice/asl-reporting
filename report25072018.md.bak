@@ -1,0 +1,39 @@
+# Summary as of 25th July 2018 
+
+# Sprint 13
+
+## Just Done
+* Designed and conducted User research with the licensing team of PEL amendments
+* Designed workflow for change of named officers - first iteration
+* Demonstrated working pagination of long lists of data
+
+## About to Do/Doing
+* Conduct inal round of user research with licensing team for PEL Amendments
+* Design interfaces for handling profiles associated with multiple establishments
+* Demonstrate end-to-end software for user account creation
+
+## Things to be aware of
+* Both of our user researchers are away on vacation for most of August - design and development work will continue
+* There was no weekly report last week because the author was away on vacation
+
+## Click here for our High-Level Road map
+[Link to Live Road map in Trello](https://trello.com/b/gDQdE01u/asl-roadmap)    [\(Cached Image\)](graphs/ASLRoadMap25072018.jpg)
+
+## Click here for metrics / progress against plan
+[Sprint 13 - Week 1 - Release 1](graphs/progress25072018.png)
+
+## Risks
+[Links to Project Risks in Trello](https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery)    [\(Cached Image\)](graphs/ASLRiskRegister25072018.jpg)
+
+[Risk Management Chart](graphs/risk25072018.png)
+
+## Sprint Planning
+We planned the following issues in sprint planning today: 
+
+[Link to Issues in Jira](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261)    [\(Cached Image\)](graphs/sprint25072018.png)
+
+Our goals for the sprint are:
+* "Create User" - end-to-end journey in working software 
+* Get designs ready for User Research on PILs 
+* Test PEL amendment journeys with licensing team, so ready for development
+
