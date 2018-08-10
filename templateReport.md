@@ -16,6 +16,10 @@
 ## Click here for metrics / progress against plan
 [RRRWEEK_SPRINT_RELEASE](graphs/progressRRRDATE_SHORT.png)
 
+## Burnup Chart
+
+[Burnup Chart](graphs/burnupChartRRRDATE_SHORT.svg)
+
 ## Risks
 [Links to Project Risks in Trello](https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery)    [\(Cached Image\)](graphs/ASLRiskRegisterRRRDATE_SHORT.jpg)
 
@@ -23,7 +27,8 @@
 
 ## Sprint Planning
 * We planned the following issues in sprint planning today [Link to Issues in Jira](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261)    [\(Cached Image\)](graphs/sprintRRRDATE_SHORT.png)
-* Our two goals for the sprint are
+
+Our goals for the sprint are:
 * RRR_TEXT_FILL
 ## Sample Design Prototype
 * RRR_TEXT_FILL
