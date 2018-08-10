@@ -25,6 +25,8 @@ my @urls_js; #urls that we'll take the screenshot using a javascript program
 my @files_js; #ditto for files
 my $progress = "progressXXXDATEXXX.png";
 my $progressOut = "progress.png";
+my $burnup = "burnupXXXDATEXXX.svg";
+my $burnupOut = 'file.svg';
 my $risk = "riskXXXDATEXXX.png";
 my $riskOut = "risk.png";
 my $sprint = "sprintXXXDATEXXX";
@@ -163,8 +165,14 @@ $progress =~ s/XXXDATEXXX/$day$month$year/g;
 system("cp $progressOut $progress");
 
 chdir ("..");
+
+system("bash getBurnupData.sh");
+$burnup =~ s/XXXDATEXXX/$day$month$year/g;
+system("cp $GRAPH_DIR$burnupOut $GRAPH_DIR$burnup");
+
 ## muck around with the index file
 system("cp $index $index.bak");
+
 
 $filename = $index;
 $file = path($filename);

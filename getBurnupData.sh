@@ -19,4 +19,3 @@ sort $myDatFile | uniq > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
 
 gnuplot -e "datafile='${myDatFile}" $myPath"dateFit.gnu" 
 
-firefox file.svg&
