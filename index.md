@@ -1,6 +1,8 @@
 # ASL Delivery Reports
 
-## [Report 10th August 2018 - Sprint 14  - mid-sprint](report10082018.md)
+## [Report 15th August 2018 - Sprint 14  - mid-sprint](report15082018.md)
+
+[Report 10th August 2018 - Sprint 14  - mid-sprint](report10082018.md)
 
 [Report 10th August 2018 - Sprint 14  - mid-sprint](report10082018.md)
 
