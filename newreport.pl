@@ -168,7 +168,7 @@ chdir ("..");
 
 system("bash getBurnupData.sh");
 $burnup =~ s/XXXDATEXXX/$day$month$year/g;
-system("cp $GRAPH_DIR$burnupOut $GRAPH_DIR$burnup");
+system("cp $burnupOut $GRAPH_DIR$burnup");
 
 ## muck around with the index file
 system("cp $index $index.bak");
