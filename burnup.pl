@@ -39,7 +39,7 @@ foreach (@statuses)
 		##say $cardName;
 		if (($colText =~ /$NOTSTARTED/) || ($colText =~ /$INPROGRESS/) || ($colText =~ /$DONE/))
 		{
-			$cardName =~ /\[\s*?(\d+)\s*?Points\s*?\]/;
+			$cardName =~ /\[\s*?(\d+)\s*?Points\s*?\]/i || die "No Points on $cardName";
 			my $points = $1;
 			$total += $points;
 			print "$cardName is $points points - total is $total ";
