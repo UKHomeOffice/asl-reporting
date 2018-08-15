@@ -1,6 +1,6 @@
 #! /bin/bash
-sudo rm -r *_files
 myPath='./graphs/'
+sudo rm -r "$myPath*_files"
 myPrefix='burnupChart'
 mySuffix='.html'
 myDatFile=$myPath"burnupchart.dat"
