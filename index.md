@@ -4,8 +4,6 @@
 
 [Report 10th August 2018 - Sprint 14  - mid-sprint](report10082018.md)
 
-[Report 10th August 2018 - Sprint 14  - mid-sprint](report10082018.md)
-
 [Report 8th August 2018 - Sprint 14 ](report08082018.md)
 
 [Report 1st August 2018 - Sprint 13 - mid-sprint ](report01082018.md)
