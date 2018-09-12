@@ -5,11 +5,11 @@ set title "ASL Digital Burnup Chart"
 set timefmt "%Y%m%d"
 set format x "%Y%m%d"
 set xdata time
-set xrange ["20180701":"20190901"]
+set xrange ["20180701":"20191201"]
 set yrange [0:1700]
 set xtics rotate
 set xtics rotate
-set xtics nomirror "20180701", 1209600, "20190901"
+set xtics nomirror "20180701", 1209600, "20191201"
 set ytics 
 
 set style line 1 lt 1 lw 2 pt 3 ps 0.5
