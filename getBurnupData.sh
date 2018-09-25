@@ -9,12 +9,13 @@ echo $myDate
 myFile="$myPath$myPrefix$myDate$mySuffix" 
 rm $myFile
 
-
 save_page_as https://trello.com/b/53ZxHuop/asl-burnup-tracker -b  firefox -d $myFile
 
 perl burnup.pl $myFile | tail -n 1 >> $myDatFile
 
 sort $myDatFile | uniq > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
+
+perl -ne '/(\d+)\s+(\d+)$/; print unless $a{$1}++' $myDatFile > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
 
 gnuplot -e "datafile='${myDatFile}" $myPath"dateFit.gnu" 
 
