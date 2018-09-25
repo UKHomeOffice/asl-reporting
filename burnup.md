@@ -1,5 +1,5 @@
 #Project Burnup Chart
-![Burnup Chart](burnup19092018.dvg "Current Burnup Chart")
+![Burnup Chart](burnup19092018.svg "Current Burnup Chart")
 
 ## Note about the burnup chart
 The trajectory of the burnup chart is currently showing past when we need it to be.It’s very early in the burnup process with only a few data points, so the projections can fluctuate quite a lot.
