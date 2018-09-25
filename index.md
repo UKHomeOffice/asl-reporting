@@ -1,6 +1,8 @@
 # ASL Delivery Reports
 
-## [Report 19th September 2018 - Sprint 17 ](report19092018.md)
+## [Report 25th September 2018 - Sprint 17  - mid-sprint](report25092018.md)
+
+[Report 19th September 2018 - Sprint 17 ](report19092018.md)
 
 
 [Report 12th September 2018 - Sprint 16  - mid-sprint](report12092018.md)
