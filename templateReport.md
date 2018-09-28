@@ -32,3 +32,6 @@ Our goals for the sprint are:
 * RRR_TEXT_FILL
 ## Sample Design Prototype
 * RRR_TEXT_FILL
+
+PLEASE NOTE:
+The software available on this link is work in progress. Sometimes when it's accessed changes will be being made that may mean it behaves strangely, or doesn't work at all. If you see something that doesn't look right, please try logging out and logging in again.  If that doesn't work, of you have any questions, please feel free to report what you see via [animalscience@digital.homeoffice.gov.uk](animalscience@digital.homeoffice.gov.uk).
