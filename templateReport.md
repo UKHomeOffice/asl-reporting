@@ -18,7 +18,7 @@
 
 ## Burnup Chart
 
-[Burnup Chart](graphs/burnupRRRDATE_SHORT.svg)
+[Burnup Chart](burnupRRRDATE_SHORT.md)
 
 ## Risks
 [Links to Project Risks in Trello](https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery)    [\(Cached Image\)](graphs/ASLRiskRegisterRRRDATE_SHORT.jpg)
