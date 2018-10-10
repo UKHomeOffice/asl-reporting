@@ -2,6 +2,8 @@
 
 ## [Report 10th October 2018 - Sprint 18  - mid-sprint](report10102018.md)
 
+[Report 10th October 2018 - Sprint 18  - mid-sprint](report10102018.md)
+
 [Report 3rd October 2018 - Sprint 18 ](report03102018.md)
 
 [Report 25th September 2018 - Sprint 17  - mid-sprint](report25092018.md)
