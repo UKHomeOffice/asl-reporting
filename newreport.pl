@@ -16,6 +16,8 @@ my@monthText = ("January", "February","March", "April", "May", "June", "July", "
 
 my $TEMPLATE_FILE = "templateReport.md";
 my $REPORT_NAME = "reportRRR_DATE.md";
+my $BURNUP_TEMPLATE = "templateBurnup.md";
+my $BURNUP_NAME = "burnupRRR_DATE.md";
 my $index = "index.md";
 my $GRAPH_DIR = "graphs/";
 my $SCREENSHOT_DIR = "../scrsht/screenshots/";
@@ -26,7 +28,7 @@ my @urls_js; #urls that we'll take the screenshot using a javascript program
 my @files_js; #ditto for files
 my $progress = "progressXXXDATEXXX.png";
 my $progressOut = "progress.png";
-my $burnup = "burnupXXXDATEXXX.svg";
+my $burnup = "burnupRRR_DATE.svg";
 my $burnupOut = 'file.svg';
 my $risk = "riskXXXDATEXXX.png";
 my $riskOut = "risk.png";
@@ -168,8 +170,20 @@ system("cp $progressOut $progress");
 chdir ("..");
 
 system("bash getBurnupData.sh");
-$burnup =~ s/XXXDATEXXX/$day$month$year/g;
+$burnup =~ s/RRR_DATE/$day$month$year/g;
 system("cp $burnupOut $GRAPH_DIR$burnup");
+
+
+$BURNUP_NAME =~ s/RRR_DATE/$day$month$year/g;
+system("cp $BURNUP_TEMPLATE  $BURNUP_NAME");
+
+$filename = $BURNUP_NAME;
+$file = path($filename);
+$data = $file->slurp_utf8;
+$data =~ s/RRRDATE_SHORT/$day$month$year/g; 
+$file->spew_utf8( $data );
+
+
 
 ## muck around with the index file
 system("cp $index $index.bak");
