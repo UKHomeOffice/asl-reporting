@@ -214,7 +214,7 @@
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='black'  d='M749.8,529.2 L749.8,524.7 M758.6,529.2 L758.6,524.7 M767.4,529.2 L767.4,524.7  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M62.2,54.1 L62.2,529.2 L775.0,529.2 L775.0,54.1 L62.2,54.1 Z  '/>	<g transform="translate(169.9,309.5)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="start">
+	<path stroke='black'  d='M62.2,54.1 L62.2,529.2 L775.0,529.2 L775.0,54.1 L62.2,54.1 Z  '/>	<g transform="translate(169.9,310.2)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
 		<text><tspan font-family="Arial" >Burnup predicted to complete at: 08-Nov-19</tspan></text>
 	</g>
 </g>

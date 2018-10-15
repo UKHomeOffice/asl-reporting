@@ -35,7 +35,7 @@ fit [strptime("%Y%m%d","20180601"):strptime("%Y%m%d","21390801")] f2(x) datafile
 fmt = '%d-%b-%y'
 doomsday = strftime(fmt, (a2 - a) /(b - b2))
 
-set label 1 "Burnup predicted to complete at: ".doomsday at "20180931", 800 
+set label 1 "Burnup predicted to complete at: ".doomsday at "20180931", 800 font ",14" 
 
 plot datafile using 1:2 with lines ls 7 title 'Done',\
      f(x) with lines ls 4 dt 3 title 'Expected Done', \
