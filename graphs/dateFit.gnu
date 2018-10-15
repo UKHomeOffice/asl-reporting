@@ -1,6 +1,6 @@
 set terminal svg enhanced size 800,600
 set output 'file.svg'
-set title "ASL Digital Burnup Chart"
+set title "ASL Digital Burnup Chart" font "Serif,32"
 
 set timefmt "%Y%m%d"
 set format x "%d-%b-%y"
