@@ -1,0 +1,12 @@
+
+# Curve 0 of 1, 7 points
+# Curve title: "datafile using 1:2"
+# x y type
+"06-Jul-18"  0  i
+"27-Jul-18"  5.25  i
+"01-Aug-18"  100.97  i
+"10-Aug-18"  97.17  i
+"15-Aug-18"  119.2  i
+"12-Sep-18"  140.83  i
+"10-Oct-18"  238.4  i
+

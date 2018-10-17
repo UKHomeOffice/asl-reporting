@@ -28,6 +28,12 @@
 ## Sprint Planning
 * We planned the following issues in sprint planning today [Link to Issues in Jira](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261)    [\(Cached Image\)](graphs/sprintRRRDATE_SHORT.png)
 
+Our goals for the previous sprint were:
+* RRR_TEXT_FILL
+## Sample Design Prototype
+* RRR_TEXT_FILL
+
+
 Our goals for the sprint are:
 * RRR_TEXT_FILL
 ## Sample Design Prototype
