@@ -17,5 +17,9 @@ sort $myDatFile | uniq > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
 
 perl -ne '/(\d+)\s+(\d+)$/; print unless $a{$1}++' $myDatFile > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
 
-gnuplot -e "datafile='${myDatFile}" $myPath"dateFit.gnu" 
+totalBacklog=`tail -n 1 ${myDatFile} | perl -ne '/(\d+)$/; print $1'`
+echo $totalBacklog
+
+gnuplot -e "datafile='${myDatFile}'; backlog=${totalBacklog}" $myPath"dateFit.gnu" 
+ 
 

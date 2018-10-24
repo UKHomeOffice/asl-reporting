@@ -29,11 +29,11 @@ fit [strptime("%Y%m%d","20180601"):strptime("%Y%m%d","21390801")] f(x) datafile 
 
 a2 = 1 
 b2 = 1 
-f2(x) = a2 + b2 * x 
-fit [strptime("%Y%m%d","20180601"):strptime("%Y%m%d","21390801")] f2(x) datafile u 1:3 via a2, b2 
+f2(x) = backlog 
+##fit [strptime("%Y%m%d","20180601"):strptime("%Y%m%d","21390801")] f2(x) datafile u 1:3 via a2, b2 
 
 fmt = '%d-%b-%y'
-doomsday = strftime(fmt, (a2 - a) /(b - b2))
+doomsday = strftime(fmt, (backlog - a) /(b))
 
 set label 1 "Burnup predicted to complete at: ".doomsday at "20180931", 800 font ",14" 
 
