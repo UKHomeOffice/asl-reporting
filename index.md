@@ -1,8 +1,5 @@
 # ASL Delivery Reports
-
 ## [Report 31st October 2018 - Sprint 20 ](report31102018.md)
-
-[Report 31st October 2018 - Sprint 20 ](report31102018.md)
 
 [Report 24th October 2018 - Sprint 19  - mid-sprint](report24102018.md)
 

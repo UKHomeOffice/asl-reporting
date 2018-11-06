@@ -148,13 +148,14 @@ system ("bash getscreenshot.sh $screenshotURL");
 
 cp("$SCREENSHOT_DIR$screenshot", "$GRAPH_DIR$local_file.png") || die "file copy failed";
 
+system("bash getRiskNumbers.sh");
 ## run the script that gets the diagrams
 ## stop if there isn't a data entry in the .dat file for the date that's given
 chdir ("graphs");
 $filename = $riskData;
 $file = path($filename);
 $data = $file->slurp_utf8;
-($data =~ /$day\/$month\/$year/g) || die "Data file $riskData isn't up to date.";
+($data =~ /$year$month$day/g) || die "Data file $riskData isn't up to date.";
 system("gnuplot $riskGnu");
 $risk =~ s/XXXDATEXXX/$day$month$year/g;
 system("cp $riskOut $risk");
