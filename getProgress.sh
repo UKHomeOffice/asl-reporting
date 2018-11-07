@@ -25,4 +25,6 @@ rm $myFile
 
 echo $myDate $done     $doing     $toDo >> $myDatFile
 sort $myDatFile | uniq > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
-
+### put a header at the top of the file
+echo "### Done Doing ToDo" > $myDatFile.$$
+cat $myDatFile >> $myDatFile.$$ && mv $myDatFile.$$ $myDatFile

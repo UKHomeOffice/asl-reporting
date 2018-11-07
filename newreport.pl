@@ -163,7 +163,7 @@ system("cp $riskOut $risk");
 $filename = $progressData;
 $file = path($filename);
 $data = $file->slurp_utf8;
-($data =~ /$day\/$month\/$year/g) || die "Data file $progressData isn't up to date.";
+($data =~ /$year$month$day/g) || die "Data file $progressData isn't up to date.";
 system("gnuplot $progressGnu");
 $progress =~ s/XXXDATEXXX/$day$month$year/g;
 system("cp $progressOut $progress");
