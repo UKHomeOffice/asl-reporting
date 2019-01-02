@@ -1,5 +1,5 @@
 # ASL Delivery Reports
-## [Report 2nd January 2019 - Sprint 24  - mid-sprint](report02012019.md)
+## [Report 2nd January 2019 - Sprint 23  - mid-sprint](report02012019.md)
 
 [Report 2nd January 2019 - Sprint 23 - mid-sprint](report02012019.md)
 
