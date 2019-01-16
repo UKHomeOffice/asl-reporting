@@ -1,5 +1,7 @@
 # ASL Delivery Reports
-## [Report 9th January 2019 - Sprint 25 ](report09012019.md)
+## [Report 16th January 2019 - Sprint 25  - mid-sprint](report16012019.md)
+
+[Report 9th January 2019 - Sprint 25 ](report09012019.md)
 
 [Report 2nd January 2019 - Sprint 23  - mid-sprint](report02012019.md)
 
