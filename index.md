@@ -2,10 +2,6 @@
 
 ## [Report 23rd January 2019 - Sprint 25 ](report23012019.md)
 
-[Report 23rd January 2019 - Sprint 25 ](report23012019.md)
-
-[Report 23rd January 2019 - Sprint 25 ](report23012019.md)
-
 [Report 16th January 2019 - Sprint 24  - mid-sprint](report16012019.md)
 
 [Report 9th January 2019 - Sprint 24 ](report09012019.md)
