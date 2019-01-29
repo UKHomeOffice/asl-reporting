@@ -9,6 +9,13 @@ echo $myDate
 myFile="$myPath$myPrefix$myDate$mySuffix" 
 rm $myFile
 
+while tail -n 1 $myDatFile | grep -Fq $myDate 
+do
+## shorten the bottom of the file by one
+head -n -1 $myDatFile > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
+done
+
+
 save_page_as https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery -b  firefox -d $myFile
 
 perl risk.pl $myFile | tail -n 1 >> $myDatFile
