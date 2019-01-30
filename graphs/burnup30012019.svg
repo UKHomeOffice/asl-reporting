@@ -229,7 +229,8 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(229,  30,  16)'  d='M716.2,102.1 L758.4,102.1 M240.1,529.2 L311.5,482.2  '/></g>
+	<path stroke='rgb(229,  30,  16)'  d='M716.2,102.1 L758.4,102.1 M68.1,529.2 L92.6,527.8 L98.5,502.8 L109.0,503.8 L114.9,498.0 L147.6,492.3
+		L180.4,466.8 L196.8,445.1 L214.4,439.7 L246.0,421.7 L262.3,410.3 L295.1,401.8  '/></g>
 	</g>
 	<g id="gnuplot_plot_2" ><title>Total Backlog</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -238,7 +239,8 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 114, 178)'  d='M716.2,120.1 L758.4,120.1 M240.1,290.7 L311.5,290.7  '/></g>
+	<path stroke='rgb(  0, 114, 178)'  d='M716.2,120.1 L758.4,120.1 M68.1,225.0 L92.6,225.0 L98.5,227.1 L109.0,230.5 L114.9,230.5 L147.6,227.1
+		L180.4,221.6 L196.8,172.9 L214.4,172.9 L246.0,172.9 L262.3,172.9 L295.1,172.9  '/></g>
 	</g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
