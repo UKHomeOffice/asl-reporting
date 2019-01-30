@@ -1,0 +1,70 @@
+# Summary as of 23rd January 2019 
+## What's Blocking us / Issues
+
+## Just Done
+* Tested the PPL application process with Contact Research Organisations (CRO)
+* Conducted PPL research with the licensing team 
+* Designed: Onboarding quick tour; categorisation of NTS; submitting PPL app to HO
+* Continued developement of PPL application authoring
+* Demonstrated working software for task process flow
+* Demonstrated working software - inline addition of images in the Rich Text Editor
+* Prepared for PPL research with establshiments
+
+## About to Do/Doing
+* Continuing development for release zero of PPL drafting tool
+* Design: review and & agree PPL review process with team and product manager
+* Design: produce designs for test with inspectors PPL app review 
+* PPL Document Export
+* Development: Taskflow - review and approval screen for all tasks that are representable
+
+## Click here for Prioritised Road Map
+[Prioritised Road Map](https://trello.com/b/p7x9hbPV/prioritised-roadmap)    [\(Cached Image\)](graphs/ASLRoadMap23012019.jpg)
+
+## Click here for metrics / progress against plan
+[Week 1 - Sprint 25 - Release 0](graphs/progress23012019.png)
+
+## Burnup Chart
+
+[Burnup Chart](burnup23012019.md)
+
+## Risks
+[Links to Project Risks in Trello](https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery) 
+
+
+## Sprint Planning
+* We planned the following issues in sprint planning today [Link to Issues in Jira](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261)    [\(Cached Image\)](graphs/sprint23012019.png)
+
+Our goals for the previous sprint were:
+1. Design for viewing and reviewing PPL
+**Continuing**
+2. Design PPL Validation Rules
+**Not done - will be address later**
+3. Test Content for PPL
+**Done**
+4. PPL Draft Tool - Release Candidate Zero
+**Continuing**
+5. Create Amend Destroy any User Role
+**Done**
+
+
+Our goals for the sprint are:
+1. Release Draft Tool PPL 
+2. PPL Review & agree with team and PO 
+3. Designs for test with inspectors PPL app review
+4. PPL Document Export 
+5. Review and approval screen for all tasks that are representable
+
+## Screenshots of the PPL application prototype
+<a href="graphs/proto1_23012019.png"><img src="graphs/proto1_23012019.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
+<br>
+<a href="graphs/proto2_23012019.png"><img src="graphs/proto2_23012019.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+
+## Google Analytics for this report
+
+This shows:
+* total number of users
+* number of new users
+
+[Google Analytics](graphs/GA16012019.jpg)
+

@@ -1,0 +1,62 @@
+# Summary as of 19th December 2018 
+
+# Sprint 23
+
+## Just Done
+* Completed PPL testing for all areas of the research application form excluding protocols
+* Updated content for all other application types (excluding Teaching)
+* Completed desings for add named people
+* Software development on: review in PIL applications, ASRU user permissions, PPL application protype
+
+## About to Do/Doing
+* Christmas! The team is back at work on 2nd January
+
+## Things to be aware of
+* Members of the team had a meeting with Cyber Security Operations Centre (CSOC)
+* Draft of the Technical Design authority
+
+## Click here for Prioritised Road Map
+[Prioritised Road Map](https://trello.com/b/p7x9hbPV/prioritised-roadmap)    [\(Cached Image\)](graphs/ASLRoadMap19122018.jpg)
+
+## Click here for metrics / progress against plan
+[Week 2 - Sprint 23 - Release 1](graphs/progress19122018.png)
+
+## Burnup Chart
+
+[Burnup Chart](burnup19122018.md)
+
+## Risks
+[Links to Project Risks in Trello](https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery)    [\(Cached Image\)](graphs/ASLRiskRegister19122018.jpg)
+
+[Risk Management Chart](graphs/risk19122018.png)
+
+## Sprint Planning
+* We planned the following issues in sprint planning today [Link to Issues in Jira](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261)    [\(Cached Image\)](graphs/sprint19122018.png)
+
+**Our goals for the sprint are:**
+1. Advanced user input in PPL prototype
+2. User feedback on new sections of PPL form
+3. Iterate protocols for PPL 
+4. Explore PPL Application types/routing
+
+## "University of Croydon" Test Environment 
+
+### Screenshots
+<a href="graphs/proto1_05122018.png"><img src="graphs/proto1_05122018.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
+<br>
+<a href="graphs/proto2_05122018.png"><img src="graphs/proto2_12122018.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+
+### Need a test account?
+If you need a test account please contact [animalscience@digital.homeoffice.gov.uk](mailto://animalscience@digital.homeoffice.gov.uk)
+
+
+
+## Google Analytics for this report
+
+This shows:
+* total number of users 
+* number of new users
+
+[Google Analytics](graphs/GA1912108.jpg)
+
