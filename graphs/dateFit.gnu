@@ -21,24 +21,6 @@ set style line 5 lt 8 lw 2 pt 3 ps 0.5
 set style line 6 lt 6 lw 2 pt 3 ps 0.5
 set style line 7 lt 7 lw 2 pt 3 ps 0.5
 
-
-f(x)=a+b*x
-a = 1
-b = 1e-8
-fit [strptime("%Y%m%d","20180601"):strptime("%Y%m%d","21390801")] f(x) datafile u 1:2 via a,b
-
-a2 = 1 
-b2 = 1 
-f2(x) = backlog 
-##fit [strptime("%Y%m%d","20180601"):strptime("%Y%m%d","21390801")] f2(x) datafile u 1:3 via a2, b2 
-
-fmt = '%d-%b-%y'
-doomsday = strftime(fmt, (backlog - a) /(b))
-
-set label 1 "Burnup predicted to complete at: ".doomsday at "20180931", 800 font ",14" 
-
 plot datafile using 1:2 with lines ls 7 title 'Done',\
-     f(x) with lines ls 4 dt 3 title 'Expected Done', \
-     f2(x) with lines ls 3 dt 4 title 'Expected Backlog', \
 datafile using 1:3 with lines ls 6 title "Total Backlog"
 
