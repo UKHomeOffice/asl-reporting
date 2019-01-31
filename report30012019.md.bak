@@ -1,0 +1,60 @@
+# Summary as of 30th January 2019 
+
+# Sprint 25 - Mid-Sprint
+
+## Just Done
+* Tested the PPL introduction and protocols with establishments using the drafting tool
+* Reported on the findings of the testing to the team
+* Scheduled user research with Inspectors
+* First prototype of export to work included in the PPL drafting tool
+* Design walkthrough of PPL reviewing and commenting
+
+## About to Do/Doing
+* Exploring the needs of CROs with inspectors
+* Write discussion guide for user testing with Inspectors
+* Review and approval screensis for all tasks that are representable
+* Fix major bugs to allow first release of PPL drafting tool
+* Amendments to designs of PPL reviewing and commenting based on feedback
+
+## Things to be aware of
+* The PPL drafting tool will be made available to applicants on 13th February 
+
+## Click here for Prioritised Road Map
+[Prioritised Road Map](https://trello.com/b/p7x9hbPV/prioritised-roadmap)    [\(Cached Image\)](graphs/ASLRoadMap30012019.jpg)
+
+## Click here for metrics / progress against plan
+[Week 2 - Sprint 25 - Release 1](graphs/progress30012019.png)
+
+## Burnup Chart
+
+[Burnup Chart](burnup30012019.md)
+
+## Risks
+[Links to Project Risks in Trello](https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery) 
+
+[Risk Management Chart](graphs/risk30012019.png)
+
+## Sprint Planning
+* We planned the following issues in sprint planning today [Link to Issues in Jira](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261)    [\(Cached Image\)](graphs/sprint30012019.png)
+
+Our goals for the sprint are:
+1. Release Draft Tool PPL
+2. PPL Review & agree with team and PO
+3. Designs for test with inspectors PPL app review
+4. PPL Document Export
+5. Review and approval screens for all tasks that are representable
+
+## Screenshots of the PPL application prototype
+<a href="graphs/proto1_30012019.png"><img src="graphs/proto1_30012019.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
+<br>
+<a href="graphs/proto2_30012019.png"><img src="graphs/proto2_30012019.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+
+## Google Analytics for this report
+
+This shows:
+* total number of users
+* number of new users
+
+[Google Analytics](graphs/GA30012019.jpg)
+
