@@ -22,7 +22,7 @@
 
 ## Risks
 [Links to Project Risks in Trello](https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery) 
-
+[Link to Risk Chart](graphs/riskRRRDATE_SHORT.png)
 
 ## Sprint Planning
 * We planned the following issues in sprint planning today [Link to Issues in Jira](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261)    [\(Cached Image\)](graphs/sprintRRRDATE_SHORT.png)
@@ -38,5 +38,18 @@ Our goals for the sprint are:
 ## Sample Design Prototype
 * RRR_TEXT_FILL
 
-PLEASE NOTE:
-The software available on this link is work in progress. Sometimes when it's accessed changes will be being made that may mean it behaves strangely, or doesn't work at all. If you see something that doesn't look right, please try logging out and logging in again.  If that doesn't work, of you have any questions, please feel free to report what you see via [animalscience@digital.homeoffice.gov.uk](animalscience@digital.homeoffice.gov.uk).
+
+## Screenshots of the PPL application prototype
+<a href="graphs/proto1_RRRDATE_SHORT.png"><img src="graphs/proto1_RRRDATE_SHORT.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
+<a href="graphs/proto2_RRRDATE_SHORT.png"><img src="graphs/proto2_RRRDATE_SHORT.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
+
+## Google Analytics for this report
+
+This shows:
+* total number of users
+* number of new users
+
+[Google Analytics](graphs/GARRRDATE_SHORT.jpg)
+
