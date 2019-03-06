@@ -9,6 +9,9 @@ use Path::Tiny qw(path);
 use File::Copy "cp";
 use Days;
 
+
+system("bash ./getProgress.sh");
+
 $ENV{MOZ_DISABLE_AUTO_SAFE_MODE} = '1'; 
 
 my @st_nd_rd_th= ("th","st", "nd", "rd", "th", "th", "th", "th", "th", "th");

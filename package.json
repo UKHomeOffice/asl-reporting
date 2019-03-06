@@ -1,0 +1,19 @@
+{
+  "name": "asl-reporting",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/ctdesign/static-test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UKHomeOffice/asl-reporting.git"
+  },
+  "author": "Mark Stringer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UKHomeOffice/asl-reporting/issues"
+  },
+  "homepage": "https://github.com/UKHomeOffice/asl-reporting#readme"
+}
