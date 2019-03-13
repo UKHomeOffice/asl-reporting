@@ -1,0 +1,68 @@
+# Summary as of 6th March 2019 
+
+## Just Done
+* Legacy PPL initial examination and strategy 
+* PPL applications and amendments first implementation
+* Prod infrastructure deployment
+* Design and esearch with inspectors - review of PPL applications
+* Preparation of research with licensing officers
+
+## About to Do/Doing
+* Email notifications
+* Data migration
+* Legacy PPL implementation
+
+## Things to be aware of
+* We are preparing documentation for security assurance processes
+
+## Click here for Prioritised Road Map
+[Prioritised Road Map](https://trello.com/b/p7x9hbPV/prioritised-roadmap)    [\(Cached Image\)](graphs/ASLRoadMap06032019.jpg)
+
+## Click here for metrics / progress against plan
+[Week 1 - Sprint 27 - Release 1](graphs/progress06032019.png)
+
+## Burnup Chart
+
+[Burnup Chart](burnup06032019.md)
+
+## Risks
+[Links to Project Risks in Trello](https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery) 
+[Link to Risk Chart](graphs/risk06032019.png)
+
+## Sprint Planning
+* We planned the following issues in sprint planning today [Link to Issues in Jira](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261)    [\(Cached Image\)](graphs/sprint06032019.png)
+
+Our goals for the previous sprint were:
+1. Project Application Submission
+**[Done]**
+2. Send notification emails
+**[In Progress]**
+3. Explore Legacy PPL amendment lifecycle
+**[Done]**
+4. Test University of Croydon with Licensing Officers
+**[Next Sprint]**
+5. Design granting PPL (standard conditions, etc)
+**[Started]**
+
+Our goals for the current sprint are: 
+1. Data Migration 
+2. Legacy PPLs Skeleton Design 
+3. Granting PPLs 
+4. Split PPL Review into separate chunks 
+5. Licensing Officer - test working software 
+6. Plan research for view of licence
+
+## Screenshots of the PPL application prototype
+<a href="graphs/proto1_06032019.png"><img src="graphs/proto1_06032019.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
+<a href="graphs/proto2_06032019.png"><img src="graphs/proto2_06032019.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
+
+## Google Analytics for this report
+
+This shows:
+* total number of users
+* number of new users
+
+[Google Analytics](graphs/GA06032019.jpg)
+

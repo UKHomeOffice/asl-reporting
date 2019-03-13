@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/UKHomeOffice/asl-reporting/issues"
   },
-  "homepage": "https://github.com/UKHomeOffice/asl-reporting#readme"
+  "homepage": "https://github.com/UKHomeOffice/asl-reporting#readme",
+  "dependencies": {
+    "puppeteer": "^1.13.0"
+  }
 }
