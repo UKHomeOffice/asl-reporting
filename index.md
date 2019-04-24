@@ -1,6 +1,10 @@
 # ASL Delivery Reports
 
-## [Report 17th April 2019 - Sprint 31 ](report17042019.md)
+## [Report 24th April 2019 - Sprint 31  - mid-sprint](report24042019.md)
+
+[Report 24th April 2019 - Sprint 31  - mid-sprint](report24042019.md)
+
+[Report 17th April 2019 - Sprint 31 ](report17042019.md)
 
 [Report 10th April 2019 - Sprint 30  - mid-sprint](report10042019.md)
 
