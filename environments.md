@@ -29,11 +29,13 @@ You need to do this *every day or so*.
 
 1) Go to [https://access-acp.digital.homeoffice.gov.uk/ui/profiles](https://access-acp.digital.homeoffice.gov.uk/ui/profiles)
 
-2) Download the ACP-Platform default ovpn file
+2) Download the ACP-TUNNEL default ovpn file
 
 3) Run the relevant command for openvpn on your os
 
 *for my OS - Ubuntu - it's:*
 
->> sudo openvpn vpn-acp-XXXXXXX.ovpn
+>> sudo openvpn vpn-acp-tunnel-NNNNNNN-NNNNN.ovpn 
 
+
+![VPN Download](graphs/VPN_Download.png)
