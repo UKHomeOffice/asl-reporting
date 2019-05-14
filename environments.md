@@ -39,5 +39,5 @@ You need to do this *every day or so*.
 
 `sudo openvpn vpn-acp-tunnel-NNNNNNN-NNNNN.ovpn`
 
-Note: This might not work when we're in the Home Office estate, e.g. in Croydon, because of reasons.
+*Note: This might not work when we're in the Home Office estate, e.g. in Croydon, because of reasons, so the only way to access internal pages when at the HO might be via VPN and tethering on your phone.*
 
