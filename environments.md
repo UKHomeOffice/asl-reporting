@@ -27,15 +27,17 @@
 
 You need to do this *every day or so*.
 
-1) Go to [https://access-acp.digital.homeoffice.gov.uk/ui/profiles](https://access-acp.digital.homeoffice.gov.uk/ui/profiles)
+1. Go to [https://access-acp.digital.homeoffice.gov.uk/ui/profiles](https://access-acp.digital.homeoffice.gov.uk/ui/profiles)
 
-2) Download the ACP-TUNNEL default ovpn file
+2. Download the ACP-TUNNEL default ovpn file
 
-3) Run the relevant command for openvpn on your os
+![VPN Download](graphs/VPN_Download.png)
+
+3. Run the relevant command for openvpn on your os
 
 *for my OS - Ubuntu - it's:*
 
->> sudo openvpn vpn-acp-tunnel-NNNNNNN-NNNNN.ovpn 
+`sudo openvpn vpn-acp-tunnel-NNNNNNN-NNNNN.ovpn`
 
+Note: This might not work when we're in the Home Office estate, e.g. in Croydon, because of reasons.
 
-![VPN Download](graphs/VPN_Download.png)
