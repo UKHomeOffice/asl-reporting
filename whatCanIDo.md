@@ -1,10 +1,12 @@
-#What Can I do with ASPEL 2?
+# What Can I do with ASPEL 2?
 
 ### As an potential user I can request an account
 
 ### As external administrator I can invite an existing user to join an establishment
 
-### As an internal user associated with an establishment I can apply for a Project licence (PPL)
+### As an external user I can accept an invitation to join an establishment
+
+### As an external user associated with an establishment I can apply for a Project licence (PPL)
 
 ### As an inspector I can review a PPL application and return with comments
 
@@ -13,8 +15,6 @@
 ### As an inspector I can recommend that a PPL licence be granted
 
 ### As a licensing office I can grant a PPL license
-
-### As an external user I can accept an invitation to join and establishment
 
 ### As an external user I can apply for a personal licence (PIL)
 
@@ -32,7 +32,7 @@
 
 ### As an internal administrator I can remove a user from ASRU
 
-### As an external administrator I can remove named people from an establishment that I am associated with
+### As an external administrator I can remove named people from an establishment for which I am administrator 
 
-### As an external administrator I can add named people to an establishment that I am associated with
+### As an external administrator I can add named people to an establishment for which I am administrator 
 
