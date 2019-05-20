@@ -1,6 +1,10 @@
 # What Can I do with ASPEL 2?
 
 ### As an potential user I can request an account
+ <video width="320" height="240" controls>
+  <source src="signup.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
 
 ### As external administrator I can invite an existing user to join an establishment
 
