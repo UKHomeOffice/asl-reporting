@@ -6,39 +6,68 @@ use Cwd;
 use lib cwd;
 use JSON::Parse 'json_file_to_perl';
 use Data::Dumper;
-my $p = json_file_to_perl ('EmrhbGKu.json');
+my $file = shift || die "No filename";
+
+my $p = json_file_to_perl ($file);
+my $DEBUG = 0;
+my $progress = 0;
+my $total = 0;
+my $INPROGRESS = 'In Progress';
+my $DONE = 'Done';
+my $NOTSTARTED = 'Not Started';
 my %cards_hash;
 my %lists_hash;
 my @cards = @{$p->{cards}};
 foreach my $card (@cards)
 {
-	say $card->{name};
-	say $card->{idList};
         $cards_hash{$card->{name}} = $card->{idList};
 }
 
 my @lists = @{$p->{lists}};
 foreach my $list (@lists)
 {
-        say $list->{name};
-        say $list->{id};
-	$lists_hash{$list->{id}} = $list->{name};
+	if (!$list->{closed})
+	{	
+		$lists_hash{$list->{id}} = $list->{name};
+	}
 }
 
-foreach my $card (keys %cards_hash)
+foreach my $cardName (keys %cards_hash)
 {
-	my $title = $card;
-        say $card;
-	my $column = $lists_hash{$cards_hash{$card}};
-        say $column;
-        if ($column =~ /Not Started/)
-	{
-	}
-	if ($column =~ /Done/)
-	{
-	}
-	if ($column =~ /In Progress/)
-	{
-	}
+	my $colText = $lists_hash{$cards_hash{$cardName}};
+                if (($colText) &&
+		(($colText =~ /$NOTSTARTED/) || ($colText =~ /$INPROGRESS/) || ($colText =~ /$DONE/)))
+                {
+                        $cardName =~ /\[\s*?(\d+)\s*?Points\s*?\]/i;
+                        my $points = $1;
+                        if($points)
+			{
+                        	$total += $points;
+				print "$cardName is $points points - total is $total ";
+			}
+                         
+                        if (($colText =~ /$INPROGRESS/) &&               
+                                ($cardName =~ /\[\s*?(\d+)\s*?\%\s*?\]/))
+                        {
+				print $cardName;
+                                my $percentage = $1;
+                                print "percentage is $percentage";
+                                $progress += $points * ($percentage/100);
+                                 print "Progress is $progress";
+                        }
+                        if ($colText =~ /$DONE/)
+                        {
+                                if($points)
+				{
+					$progress += $points;
+				}
+                        }
+                        print "\n";
+                }
 }
+my $date = `date +%Y%m%d`;
+$date =~s/\n+//;
+say "Total is $total";
+say "Progress is $progress";
+print "$date $progress $total";
 

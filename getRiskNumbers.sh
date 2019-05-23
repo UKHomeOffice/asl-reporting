@@ -16,9 +16,9 @@ head -n -1 $myDatFile > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
 done
 
 
-save_page_as https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery -b  firefox -d $myFile
+save_page_as https://trello.com/b/VuFuCL7t.json -b  firefox -d $myFile
 
-perl risk.pl $myFile | tail -n 1 >> $myDatFile
+perl riskJSON.pl $myFile | tail -n 1 >> $myDatFile
 
 sort $myDatFile | uniq > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
 

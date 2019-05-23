@@ -10,9 +10,9 @@ echo $myDate
 myFile="$myPath$myPrefix$myDate$mySuffix" 
 rm $myFile
 
-save_page_as https://trello.com/b/EmrhbGKu/new-asl-burnup-tracker -b  firefox -d $myFile
+save_page_as https://trello.com/b/EmrhbGKu.json -b  firefox -d $myFile
 
-perl burnup.pl $myFile | tail -n 1 >> $myDatFile
+perl getJSONBurnup.pl $myFile | tail -n 1 >> $myDatFile
 
 ##sort $myDatFile | uniq > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
 sort $myDatFile > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile

@@ -15,12 +15,12 @@ my $MED_RISKS = 'MED RISKS exp 200-999';
 my $BIG_RISKS= 'BIG RISKS > exp 1000';
 
 my $file = shift;
--e $file || die "html file doesn't exist";
+-e $file || die "JSON file doesn't exist";
 
-my $root = HTML::TreeBuilder->new_from_file($file);
+## my $root = HTML::TreeBuilder->new_from_file($file);
 
-my @statuses =  $root->look_down('class' =>'js-list list-wrapper');
-my @cardLists = $root->look_down('class' => 'list-cards u-fancy-scrollbar u-clearfix js-list-cards js-sortable ui-sortable');
+##my @statuses =  $root->look_down('class' =>'js-list list-wrapper');
+##  my @cardLists = $root->look_down('class' => 'list-cards u-fancy-scrollbar u-clearfix js-list-cards js-sortable ui-sortable');
 
 ## find the headings for the columns
 foreach (@statuses)
