@@ -1,10 +1,7 @@
 # ASL Delivery Reports
 
-## [Report 23rd May 2019 - Sprint 33  - mid-sprint](report23052019.md)
 
-[Report 23rd May 2019 - Sprint 33  - mid-sprint](report23052019.md)
-
-[Report 22nd May 2019 - Sprint 33  - mid-sprint](report22052019.md)
+## [Report 22nd May 2019 - Sprint 33  - mid-sprint](report22052019.md)
 
 [Report 15th May 2019 - Sprint 33 ](report15052019.md)
 
