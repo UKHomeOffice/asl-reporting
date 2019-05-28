@@ -10,6 +10,12 @@
 
 
 ### As external administrator I can invite an existing user to join an establishment
+<video controls width="400">
+    <source src="graphs/invite.mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
 
 ### As an external user I can accept an invitation to join an establishment
 
