@@ -17,7 +17,7 @@ perl getJSONBurnup.pl $myFile | tail -n 1 >> $myDatFile
 ##sort $myDatFile | uniq > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
 sort $myDatFile > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
 
-##perl -ne '/(\d+)\s+(\d+)$/; print unless $a{$1}++' $myDatFile > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
+perl -ne '/(\d+)\s+(\d+)$/; print unless $a{$1}++' $myDatFile > $myDatFile.$$ && mv $myDatFile.$$ $myDatFile
 
 totalBacklog=`tail -n 1 ${myDatFile} | perl -ne '/(\d+)$/; print $1'`
 echo $totalBacklog
