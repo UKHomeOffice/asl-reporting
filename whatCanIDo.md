@@ -18,6 +18,13 @@
 </video>
 
 ### As an external user I can accept an invitation to join an establishment
+<video controls width="400">
+    <source src="graphs/accept_invite.mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
 
 ### As an external user associated with an establishment I can apply for a Project licence (PPL)
 
