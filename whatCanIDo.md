@@ -8,6 +8,8 @@
     Sorry, your browser doesn't support embedded videos.
 </video>
 
+#### How to test this with a script
+>>./signup dev
 
 ### As external administrator I can invite an existing user to join an establishment
 <video controls width="400">
