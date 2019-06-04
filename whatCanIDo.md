@@ -9,7 +9,7 @@
 </video>
 
 #### How to test this with a script
->>./signup dev
+`./signup dev`
 
 ### As external administrator I can invite an existing user to join an establishment
 <video controls width="400">
