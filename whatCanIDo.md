@@ -19,6 +19,9 @@
     Sorry, your browser doesn't support embedded videos.
 </video>
 
+#### How to test this with a script
+`./invite_ext dev`
+
 ### As an external user I can accept an invitation to join an establishment
 <video controls width="400">
     <source src="graphs/accept_invite.mp4"
@@ -26,17 +29,22 @@
 
     Sorry, your browser doesn't support embedded videos.
 </video>
+#### How to test this with a script
+`./acc_invite dev`
 
 
 ### As an external user associated with an establishment I can apply for a Project licence (PPL)
+`./ppl dev <user email>`
 
 ### As an inspector I can review a PPL application and return with comments
 
 ### As an internal user I can respond to comments on a PPL application and reapply
 
 ### As an inspector I can recommend that a PPL licence be granted
+`./rl dev`
 
 ### As a licensing office I can grant a PPL license
+`./gl dev`
 
 ### As an external user I can apply for a personal licence (PIL)
 
