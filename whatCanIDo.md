@@ -34,9 +34,10 @@
 
 
 ### As an external user associated with an establishment I can apply for a Project licence (PPL)
-`./ppl dev <user email>`
+`./li dev <user email>`
 
 ### As an inspector I can review a PPL application and return with comments
+
 
 ### As an internal user I can respond to comments on a PPL application and reapply
 
