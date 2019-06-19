@@ -23,25 +23,6 @@
 ### Dev
 [https://ppl-staging.herokuapp.com](https://ppl-prototype.herokuapp.com/)
 
-### Accounts
-
-#### External
-
-`holc`
-
-`ntco`
-
-`admin`
-
-`read`
-
-#### Internal
-
-`inspector`
-
-`asru-admin`
-
-`licensing`
 
 ### How to I run a vpn?
 
