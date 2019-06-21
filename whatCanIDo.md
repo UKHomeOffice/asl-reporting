@@ -9,7 +9,7 @@
 </video>
 
 #### How to test this with a script
-`./signup dev`
+`./run_signup dev`
 
 ### As external administrator I can invite an existing user to join an establishment
 <video controls width="400">
@@ -20,7 +20,7 @@
 </video>
 
 #### How to test this with a script
-`./invite_ext dev`
+`./run_invite_ext dev`
 
 ### As an external user I can accept an invitation to join an establishment
 <video controls width="400">
@@ -29,12 +29,14 @@
 
     Sorry, your browser doesn't support embedded videos.
 </video>
-#### How to test this with a script
-`./acc_invite dev`
 
+`run_pil_application dev`
+
+#### How to test this with a script
+`./run_acc_invite dev`
 
 ### As an external user associated with an establishment I can apply for a Project licence (PPL)
-`./li dev <user email>`
+`./run_li dev <user email>`
 
 ### As an inspector I can review a PPL application and return with comments
 
@@ -42,12 +44,18 @@
 ### As an internal user I can respond to comments on a PPL application and reapply
 
 ### As an inspector I can recommend that a PPL licence be granted
-`./rl dev`
+`./run_rl dev`
 
 ### As a licensing office I can grant a PPL license
-`./gl dev`
+`./run_gl dev`
 
 ### As an external user I can apply for a personal licence (PIL)
+<video controls width="400">
+    <source src="graphs/ApplyForaAPil.mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
 
 ### As an NTCO I can approve an application for a PIL
 
