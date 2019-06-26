@@ -1,4 +1,7 @@
 # Summary as of RRRDATE_LONG 
+
+# Sprint
+
 ## What's Blocking us / Issues
 * RRRTEXT_FILL
 
@@ -11,7 +14,7 @@
 ## Things to be aware of
 * RRRTEXT_FILL
 ## Click here for Prioritised Road Map
-[Prioritised Road Map](https://trello.com/b/p7x9hbPV/prioritised-roadmap)    [\(Cached Image\)](graphs/ASLRoadMapRRRDATE_SHORT.jpg)
+[Prioritised Road Map](graphs/ASLRoadMapRRRDATE_SHORT.jpg)
 
 ## Click here for metrics / progress against plan
 [RRRWEEK_SPRINT_RELEASE](graphs/progressRRRDATE_SHORT.png)
@@ -25,31 +28,20 @@
 [Link to Risk Chart](graphs/riskRRRDATE_SHORT.png)
 
 ## Sprint Planning
-* We planned the following issues in sprint planning today [Link to Issues in Jira](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261)    [\(Cached Image\)](graphs/sprintRRRDATE_SHORT.png)
+* We planned the following issues in sprint planning [Link to Issues in Jira](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=261)    [\(Cached Image\)](graphs/sprintRRRDATE_SHORT.png)
 
-Our goals for the previous sprint were:
-* RRR_TEXT_FILL
-## Sample Design Prototype
-* RRR_TEXT_FILL
 
 
 Our goals for the sprint are:
 * RRR_TEXT_FILL
-## Sample Design Prototype
-* RRR_TEXT_FILL
 
 
-## Screenshots of the PPL application prototype
+## Screenshots of the working software 
 <a href="graphs/proto1_RRRDATE_SHORT.png"><img src="graphs/proto1_RRRDATE_SHORT.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
 <br>
 <a href="graphs/proto2_RRRDATE_SHORT.png"><img src="graphs/proto2_RRRDATE_SHORT.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
 <br>
 
 ## Google Analytics for this report
-
-This shows:
-* total number of users
-* number of new users
-
 [Google Analytics](graphs/GARRRDATE_SHORT.jpg)
 

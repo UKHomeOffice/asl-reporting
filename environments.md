@@ -2,10 +2,9 @@
 
 ## Prod - currently needs vpn
 ### Public
-[https://public-ui.prod.asl.homeoffice.gov.uk/](https://public-ui.preprod.asl.homeoffice.gov.uk/)
-
+https://public-ui.prod.asl.homeoffice.gov.uk/
 ### Private
-[https://internal-ui.prod.asl.homeoffice.gov.uk/](https://public-ui.preprod.asl.homeoffice.gov.uk/)
+http://internal-ui.preprod.asl.homeoffice.gov.uk/
 
 ## Pre Prod
 ### Public
