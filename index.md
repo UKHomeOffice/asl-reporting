@@ -1,7 +1,9 @@
 # ASL Delivery Reports
 
 
-## [Report 26th June 2019 - Sprint 36 ](report26062019.md)
+## [Report 3rd July 2019 - Sprint 36  - mid-sprint](report03072019.md)
+
+[Report 26th June 2019 - Sprint 36 ](report26062019.md)
 
 [Report 19th June 2019 - Sprint 35  - mid-sprint](report19062019.md)
 
