@@ -1,6 +1,6 @@
 # ASL Delivery Reports
 
-[Report 14th August 2019 - Sprint 39](report14082019.md)
+## [Report 14th August 2019 - Sprint 39](report14082019.md)
 
 [Report 7th August 2019 - Sprint 39](report07082019.md)
 
