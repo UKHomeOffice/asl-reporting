@@ -14,7 +14,7 @@
 
 ## Bugs Fixed this week
 The following bugs were fixed this week.
-[Bug Fixes week to DATE_LONG](graphs/bugsDATE_SHORT.jpg)
+[Bug Fixes week to DATE_LONG](graphs/bugsDATE_SHORT.png)
 
 We planned the following issues in this sprint 
 [Sprint SPRINT_NO](graphs/sprintDATE_SHORT.png)
