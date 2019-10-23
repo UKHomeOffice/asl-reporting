@@ -86,3 +86,7 @@ copy ($PROGRESS_OUTPUT_FILE, $PROGRESS_FILE);
 chdir '..';
 `pwd`;
 
+## look for the Analytics file
+`touch ~/Downloads/timestamp -d $date_jira_format`;
+(my $analytics_file = `find ~/Downloads -newer ~/Downloads/timestamp | grep Analytics | grep pdf`)=~ s/\n//g || die "No recent Analytics file";
+say $analytics_file;

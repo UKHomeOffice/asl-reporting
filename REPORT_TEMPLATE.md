@@ -40,5 +40,5 @@ Our goals for the current sprint are:
 
 
 ## Google Analytics for this report
-[Google Analytics](graphs/GADATE_SHORT.jpg)
+[Google Analytics](graphs/GADATE_SHORT.png)
 
