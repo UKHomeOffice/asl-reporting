@@ -18,22 +18,16 @@ use TestBits;
 my $TEMPLATE='REPORT_TEMPLATE.md';
 
 my $offset = shift // 'today';
-
 (my $date_short = `date --date \'$offset\' +%d%m%Y`)  =~ s/\n//g;
 ## get the date in jira format for last week
 (my $date_jira_seconds = `date --date \'$offset\' +%s`)  =~ s/\n//g;
 $date_jira_seconds = $date_jira_seconds - (60*60*24*7);
 (my $date_jira_format = `date -d \'\@$date_jira_seconds\' +%Y-%m-%d`) =~s/\n//g;
-say $date_jira_format;
-
 (my $date_long = `date --date \'$offset\' "+%A %d %B %Y"`) =~ s/\n//g;
-
 (my $date_for_seconds = `date --date \'$offset\' +%Y%m%d`)  =~ s/\n//g;
 (my $start_seconds = `date --date "20180207" +%s`) =~ s/\n//g;
 (my $end_seconds = `date --date \"$date_long\" +%s`) =~ s/\n//g;
-
 my $sprint =  int((int($end_seconds) - int($start_seconds))/(60*60*24*14));
-
 my $report_file = "report$date_short.md";
 
 copy($TEMPLATE,$report_file) or die "Copy failed: $!";
@@ -81,6 +75,14 @@ $driver->get($DONE);
 $driver->pause(5000);
 my $element = $driver->find_element('//*[@class=\'results-count-total results-count-link\']');
 my $done = $element->get_text();
-open(my $fh, '>>', $PROGRESS_FILE) or die "Could not open file '$PROGRESS_FILE' $!";
+open(my $fh, '>>', $PROGRESS_DAT_FILE) or die "Could not open file '$PROGRESS_DAT_FILE' $!";
 say $fh "$date_for_seconds $done $doing $todo";
 close $fh;
+chdir 'graphs';
+$bash_command = "gnuplot $PROGRESS_GNU_FILE";
+`$bash_command`;
+$PROGRESS_FILE =~ s/DATE_SHORT/$date_short/g;
+copy ($PROGRESS_OUTPUT_FILE, $PROGRESS_FILE);
+chdir '..';
+`pwd`;
+
