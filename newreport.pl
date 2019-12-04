@@ -6,6 +6,7 @@ use lib cwd;
 use ReportConsts;
 use Selenium::Remote::Driver;
 use Selenium::Chrome;
+use Selenium::Firefox;
 use Selenium::Remote::WDKeys;
 
 use 5.010;
@@ -18,6 +19,9 @@ use TestBits;
 my $TEMPLATE='REPORT_TEMPLATE.md';
 
 my $offset = shift // 'today';
+my $username = shift || die "No username";
+my $password = shift || die "No password";
+
 (my $date_short = `date --date \'$offset\' +%d%m%Y`)  =~ s/\n//g;
 ## get the date in jira format for last week
 (my $date_jira_seconds = `date --date \'$offset\' +%s`)  =~ s/\n//g;
@@ -39,27 +43,28 @@ $data =~ s/DATE_LONG/$date_long/g;
 $data =~ s/SPRINT_NO/$sprint/g;
 $file->spew_utf8( $data );
 
-## get the jira screenshots
-my $bash_command = "bash getscreenshot.sh \'$SPRINT_STORIES\'";
-say $bash_command;
-## stories in the sprint
-`$bash_command`;
+my $driver = Selenium::Firefox->new ();
+$driver->get($JIRA_BASE);
+$driver->pause(5000);
+login($driver,  $username, $password);
+$driver->pause(5000);
+$driver->get($SPRINT_STORIES);
+$driver->pause(5000);
+
+
 $SPRINT_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $SPRINT_FILE);
 $RECENT_BUGS =~ s/JIRA_DATE_FORMAT/$date_jira_format/;
-
+$driver->get($RECENT_BUGS);
+$driver->pause(5000);
+$driver->capture_screenshot($OUTPUT_FILE, {'full' => 1});
 ## bugs fixed in the sprint
 $BUGS_FILE =~ s/DATE_SHORT/$date_short/g;
-$bash_command = "bash getscreenshot.sh \'$RECENT_BUGS\'";
-say $bash_command;
-`$bash_command`;
 copy ($OUTPUT_FILE, $BUGS_FILE);
+$driver->pause(5000);
 
-my $username = shift || die "No username";
-my $password = shift || die "No password";
-
-my $driver = Selenium::Chrome->new;
-$driver->get("https://jira.digital.homeoffice.gov.uk/");
+$driver = Selenium::Chrome->new;
+$driver->get($JIRA_BASE);
 login($driver,  $username, $password);
 $driver->pause(5000);
 $driver->get($TODO);
@@ -79,7 +84,7 @@ open(my $fh, '>>', $PROGRESS_DAT_FILE) or die "Could not open file '$PROGRESS_DA
 say $fh "$date_for_seconds $done $doing $todo";
 close $fh;
 chdir 'graphs';
-$bash_command = "gnuplot $PROGRESS_GNU_FILE";
+my $bash_command = "gnuplot $PROGRESS_GNU_FILE";
 `$bash_command`;
 $PROGRESS_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($PROGRESS_OUTPUT_FILE, $PROGRESS_FILE);

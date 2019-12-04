@@ -1,6 +1,8 @@
 # ASL Delivery Reports
 
-## [Report 27th November 2019 - Sprint 47](report27112019.md)
+## [Report 4th December 2019 - Sprint 47](report04122019.md)
+
+[Report 27th November 2019 - Sprint 47](report27112019.md)
 
 [Report 13th November 2019 - Sprint 46](report13112019.md)
 
