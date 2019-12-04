@@ -20,7 +20,7 @@ We planned the following issues in this sprint
 [Sprint SPRINT_NO](graphs/sprintDATE_SHORT.png)
 
 ## Support tickets and known issues
-[Link to Support Board](https://jira.digital.homeoffice.gov.uk/secure/RapidBoard.jspa?rapidView=331&selectedIssue=ALS-47)
+[Link to Support Board](https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa?rapidView=1717&selectedIssue=ASSB-253)
 
 [Support board - cached](graphs/supportBoardDATE_SHORT.jpg)
 
