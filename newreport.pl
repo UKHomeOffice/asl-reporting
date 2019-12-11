@@ -43,27 +43,28 @@ $data =~ s/DATE_LONG/$date_long/g;
 $data =~ s/SPRINT_NO/$sprint/g;
 $file->spew_utf8( $data );
 
-my $driver = Selenium::Firefox->new ();
-$driver->get($JIRA_BASE);
-$driver->pause(5000);
-login($driver,  $username, $password);
-$driver->pause(5000);
-$driver->get($SPRINT_STORIES);
-$driver->pause(5000);
+## get the jira screenshots
+my $bash_command = "bash getscreenshot.sh $username $password \'$SPRINT_STORIES\'";
+say $bash_command;
+## stories in the sprint
+`$bash_command`;
 
 
 $SPRINT_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $SPRINT_FILE);
 $RECENT_BUGS =~ s/JIRA_DATE_FORMAT/$date_jira_format/;
-$driver->get($RECENT_BUGS);
-$driver->pause(5000);
-$driver->capture_screenshot($OUTPUT_FILE, {'full' => 1});
-## bugs fixed in the sprint
+
+
+## get the jira screenshots
+$bash_command = "bash getscreenshot.sh $username $password \'$RECENT_BUGS\'";
+say $bash_command;
+## stories in the sprint
+`$bash_command`;
+
 $BUGS_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $BUGS_FILE);
-$driver->pause(5000);
 
-$driver = Selenium::Chrome->new;
+my $driver = Selenium::Chrome->new;
 $driver->get($JIRA_BASE);
 login($driver,  $username, $password);
 $driver->pause(5000);
@@ -74,7 +75,7 @@ my $todo =  $element->get_text();
 $driver->pause(5000);
 $driver->get($DOING);
 $driver->pause(5000);
-my $element = $driver->find_element('//*[@class=\'results-count-total results-count-link\']');
+$element = $driver->find_element('//*[@class=\'results-count-total results-count-link\']');
 my $doing = $element->get_text();
 $driver->get($DONE);
 $driver->pause(5000);
