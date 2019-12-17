@@ -3,20 +3,20 @@ use strict;
 use warnings;
 use Cwd;
 use lib cwd;
-use ReportConsts;
 use Selenium::Remote::Driver;
 use Selenium::Chrome;
 use Selenium::Firefox;
 use Selenium::Remote::WDKeys;
 
+use Data::Dumper;
+use YAML::XS 'LoadFile';
+    
 use 5.010;
 use Path::Tiny qw(path);
 use File::Copy "copy";
 use TestASL;
 use TestBits;
-
-## Constants
-my $TEMPLATE='REPORT_TEMPLATE.md';
+use Screenshot;
 
 my $offset = shift // 'today';
 my $username = shift || die "No username";
@@ -43,12 +43,10 @@ $data =~ s/DATE_LONG/$date_long/g;
 $data =~ s/SPRINT_NO/$sprint/g;
 $file->spew_utf8( $data );
 
-## get the jira screenshots
 my $bash_command = "bash getscreenshot.sh $username $password \'$SPRINT_STORIES\'";
 say $bash_command;
 ## stories in the sprint
 `$bash_command`;
-
 
 $SPRINT_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $SPRINT_FILE);
@@ -64,9 +62,21 @@ say $bash_command;
 $BUGS_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $BUGS_FILE);
 
-my $driver = Selenium::Chrome->new;
+## get the jira screenshot
+my $driver = Selenium::Firefox->new;
+screenshot($driver, $BOARD_BASE, $BOARD, $username, $password);
+
+$BOARD_FILE =~ s/DATE_SHORT/$date_short/g;
+copy ($OUTPUT_FILE, $BOARD_FILE);
+
+$driver = Selenium::Firefox->new;
+screenshot($driver, $TRELLO_BASE, $TRELLO_ROADMAP, $TRELLO_USERNAME, $TRELLO_PASSWORD, $TRELLO_LOGIN_XPATH, $TRELLO_PASSWORD_XPATH);
+$TRELLO_FILE =~ s/DATE_SHORT/$date_short/g;
+copy ($OUTPUT_FILE, $TRELLO_FILE);
+
+$driver = Selenium::Chrome->new;
 $driver->get($JIRA_BASE);
-login($driver,  $username, $password);
+login($driver, $username, $password);
 $driver->pause(5000);
 $driver->get($TODO);
 $driver->pause(5000);
@@ -79,13 +89,13 @@ $element = $driver->find_element('//*[@class=\'results-count-total results-count
 my $doing = $element->get_text();
 $driver->get($DONE);
 $driver->pause(5000);
-my $element = $driver->find_element('//*[@class=\'results-count-total results-count-link\']');
+$element = $driver->find_element('//*[@class=\'results-count-total results-count-link\']');
 my $done = $element->get_text();
 open(my $fh, '>>', $PROGRESS_DAT_FILE) or die "Could not open file '$PROGRESS_DAT_FILE' $!";
 say $fh "$date_for_seconds $done $doing $todo";
 close $fh;
 chdir 'graphs';
-my $bash_command = "gnuplot $PROGRESS_GNU_FILE";
+$bash_command = "gnuplot $PROGRESS_GNU_FILE";
 `$bash_command`;
 $PROGRESS_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($PROGRESS_OUTPUT_FILE, $PROGRESS_FILE);

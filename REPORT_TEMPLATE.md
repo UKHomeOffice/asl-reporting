@@ -22,7 +22,7 @@ We planned the following issues in this sprint
 ## Support tickets and known issues
 [Link to Support Board](https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa?rapidView=1717&selectedIssue=ASSB-253)
 
-[Support board - cached](graphs/supportBoardDATE_SHORT.jpg)
+[Support board - cached](graphs/supportBoardDATE_SHORT.png)
 
 ## Click here for metrics / progress against plan
 [Sprint SPRINT_NO](graphs/progressDATE_SHORT.png)
