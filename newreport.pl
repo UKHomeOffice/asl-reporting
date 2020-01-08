@@ -74,9 +74,9 @@ screenshot($driver, $TRELLO_BASE, $TRELLO_ROADMAP, $TRELLO_USERNAME, $TRELLO_PAS
 $TRELLO_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $TRELLO_FILE);
 
-$driver = Selenium::Firefox->new;
-savefile($driver, $TRELLO_BASE, $TRELLO_ROADMAP_JSON, $TRELLO_USERNAME, $TRELLO_PASSWORD, $TRELLO_LOGIN_XPATH, $TRELLO_PASSWORD_XPATH, $TRELLO_ROADMAP_JSON_FILE);
-exit(1);
+##$driver = Selenium::Firefox->new;
+##savefile($driver, $TRELLO_BASE, $TRELLO_ROADMAP_JSON, $TRELLO_USERNAME, $TRELLO_PASSWORD, $TRELLO_LOGIN_XPATH, $TRELLO_PASSWORD_XPATH, $TRELLO_ROADMAP_JSON_FILE);
+##exit(1);
 
 $driver = Selenium::Chrome->new;
 $driver->get($JIRA_BASE);
