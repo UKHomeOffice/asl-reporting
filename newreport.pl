@@ -31,7 +31,7 @@ $date_jira_seconds = $date_jira_seconds - (60*60*24*7);
 (my $date_for_seconds = `date --date \'$offset\' +%Y%m%d`)  =~ s/\n//g;
 (my $start_seconds = `date --date "20180207" +%s`) =~ s/\n//g;
 (my $end_seconds = `date --date \"$date_long\" +%s`) =~ s/\n//g;
-my $sprint =  int((int($end_seconds) - int($start_seconds))/(60*60*24*14));
+my $sprint =  int((int($end_seconds) - int($start_seconds))/(60*60*24*14)) - 1;
 my $report_file = "report$date_short.md";
 
 copy($TEMPLATE,$report_file) or die "Copy failed: $!";
