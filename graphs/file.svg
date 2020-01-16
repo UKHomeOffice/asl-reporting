@@ -163,7 +163,7 @@
 	<path stroke='black'  d='M62.2,84.1 L62.2,529.2 L775.0,529.2 L775.0,84.1 L62.2,84.1 Z  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(418.6,37.5)" stroke="none" fill="black" font-family="Serif" font-size="32.00"  text-anchor="middle">
-		<text><tspan font-family="Serif" >ASL Digital Burnup Chart</tspan></text>
+		<text><tspan font-family="Serif" >Post Release ASL Burnup Chart</tspan></text>
 	</g>
 </g>
 	<g id="gnuplot_plot_1" ><title>Done</title>
@@ -175,16 +175,37 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(229,  30,  16)'  d='M716.2,102.1 L758.4,102.1 M83.7,486.9 L97.4,478.9  '/></g>
+	<path stroke='rgb(229,  30,  16)'  d='M716.2,102.1 L758.4,102.1 M70.0,486.9 L97.4,478.9  '/></g>
 	</g>
-	<g id="gnuplot_plot_2" ><title>Total Backlog</title>
+	<g id="gnuplot_plot_2" ><title>Expected Done</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(707.9,124.0)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Expected Done</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(230, 159,   0)' stroke-dasharray=' 2,4'  d='M716.2,120.1 L758.4,120.1 M62.2,489.2 L69.4,487.1 L76.6,485.0 L83.8,482.9 L91.0,480.8 L98.2,478.6
+		L105.4,476.5 L112.6,474.4 L119.8,472.3 L127.0,470.2 L134.2,468.1 L141.4,466.0 L148.6,463.8 L155.8,461.7
+		L163.0,459.6 L170.2,457.5 L177.4,455.4 L184.6,453.3 L191.8,451.2 L199.0,449.0 L206.2,446.9 L213.4,444.8
+		L220.6,442.7 L227.8,440.6 L235.0,438.5 L242.2,436.4 L249.4,434.2 L256.6,432.1 L263.8,430.0 L271.0,427.9
+		L278.2,425.8 L285.4,423.7 L292.6,421.6 L299.8,419.4 L307.0,417.3 L314.2,415.2 L321.4,413.1 L328.6,411.0
+		L335.8,408.9 L343.0,406.8 L350.2,404.7 L357.4,402.5 L364.6,400.4 L371.8,398.3 L379.0,396.2 L386.2,394.1
+		L393.4,392.0 L400.6,389.9 L407.8,387.7 L415.0,385.6 L422.2,383.5 L429.4,381.4 L436.6,379.3 L443.8,377.2
+		L451.0,375.1 L458.2,372.9 L465.4,370.8 L472.6,368.7 L479.8,366.6 L487.0,364.5 L494.2,362.4 L501.4,360.3
+		L508.6,358.1 L515.8,356.0 L523.0,353.9 L530.2,351.8 L537.4,349.7 L544.6,347.6 L551.8,345.5 L559.0,343.3
+		L566.2,341.2 L573.4,339.1 L580.6,337.0 L587.8,334.9 L595.0,332.8 L602.2,330.7 L609.4,328.5 L616.6,326.4
+		L623.8,324.3 L631.0,322.2 L638.2,320.1 L645.4,318.0 L652.6,315.9 L659.8,313.7 L667.0,311.6 L674.2,309.5
+		L681.4,307.4 L688.6,305.3 L695.8,303.2 L703.0,301.1 L710.2,298.9 L717.4,296.8 L724.6,294.7 L731.8,292.6
+		L739.0,290.5 L746.2,288.4 L753.4,286.3 L760.6,284.2 L767.8,282.0 L775.0,279.9  '/></g>
+	</g>
+	<g id="gnuplot_plot_3" ><title>Total Backlog</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(707.9,142.0)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >Total Backlog</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 114, 178)'  d='M716.2,120.1 L758.4,120.1 M83.7,115.3 L97.4,109.8  '/></g>
+	<path stroke='rgb(  0, 114, 178)'  d='M716.2,138.1 L758.4,138.1 M70.0,115.3 L97.4,109.8  '/></g>
 	</g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
