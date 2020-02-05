@@ -105,6 +105,7 @@ $PROGRESS_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($PROGRESS_OUTPUT_FILE, $PROGRESS_FILE);
 chdir '..';
 `pwd`;
+`newburn.sh`;
 
 ## look for the Analytics file
 `touch ~/Downloads/timestamp -d $date_jira_format`;
