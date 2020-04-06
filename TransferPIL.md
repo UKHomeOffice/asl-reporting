@@ -7,3 +7,5 @@ Review and Confirm Changes <br><a href="graphs/reviewAndConfirmChanges.png"><img
 Submit to NTCO <br><a href="graphs/submitToNTCO.png"><img src="graphs/submitToNTCO.png" width="800"></a><br>
 NTCO at receiving establishment Logs on<br><a href="graphs/ntcoAtReceivingEstablishmentLogsOn.png"><img src="graphs/ntcoAtReceivingEstablishmentLogsOn.png" width="800"></a><br>
 PIL transfer shows on NTCO's task list<br><a href="graphs/PILTransferShowsOnTaskList.png"><img src="graphs/PILTransferShowsOnTaskList.png" width="800"></a><br>
+NTCO ReviewsAndEndorses PIL transfer <br><a href="graphs/ntcoReviewsAndEndorsesTransfer.png"><img src="graphs/ntcoReviewsAndEndorsesTransfer.png" width="800"></a><br>
+NTCO Comments and confirms endorsement <br><a href="graphs/reviewAndConfirmEndorsment.png"><img src="graphs/reviewAndConfirmEndorsment.png" width="800"></a><br>reviewAndConfirmEndorsment.png
