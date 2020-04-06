@@ -16,6 +16,7 @@ my $NEXT = 'Next';
 my $SHORT_TERM = 'Short';
 my $MEDIUM_TERM = 'Medium';
 my $LONG_TERM = 'Long';
+my $DONE = 'Done';
 my %cards_hash;
 my %lists_hash;
 my @cards = @{$p->{cards}};
@@ -38,7 +39,8 @@ foreach my $cardName (keys %cards_hash)
 	my $colText = $lists_hash{$cards_hash{$cardName}};
 	if( $colText && $colText =~ /($NEXT|$SHORT_TERM|$MEDIUM_TERM|$LONG_TERM)/gi)
 	{
-		## say $cardName;
+	         say $cardName;
+
 		 if($cardName =~ /\[\s*?(\d+)\s*?Points\s*?\]/i)
 		 {
                  	my $points = $1;
@@ -55,6 +57,17 @@ foreach my $cardName (keys %cards_hash)
                  	}
 		 }
 		
+	}
+	elsif ( $colText && $colText =~ /($DONE)/gi)
+	{
+		 say $cardName;
+		 if($cardName =~ /\[\s*?(\d+)\s*?Points\s*?\]/i)
+                 {
+                        my $points = $1;
+                        $total += $points;
+                        $progress += $points;
+			say $points;
+                 }
 	}
 }
 my $date = `date +%Y%m%d`;

@@ -10,6 +10,8 @@ myDate=`date +%Y%m%d`
 echo $myDate
 myFile="$myPath$myPrefix$myDate$mySuffix" 
 myDefaultOutputFile="$myPath$myPrefix$myDate$defaultOutputSuffix" 
+echo "My file is:"
+echo $myFile
 rm $myFile
 
 save_page_as https://trello.com/b/KpVVpCty.json -b  firefox -d $myFile
