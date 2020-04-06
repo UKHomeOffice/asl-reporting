@@ -5,3 +5,4 @@ Click on Amend or Transfer Licence<br><a href="graphs/AmendOrTransferLicence.png
 Edit Establishment <br><a href="graphs/editEstablishment.png"><img src="graphs/editEstablishment.png" width="800"></a><br>
 Review and Confirm Changes <br><a href="graphs/reviewAndConfirmChanges.png"><img src="graphs/reviewAndConfirmChanges.png" width="800"></a><br>
 Submit to NTCO <br><a href="graphs/submitToNTCO.png"><img src="graphs/submitToNTCO.png" width="800"></a><br>
+NTCO at receiving establishment Logs on<br><a href="graphs/ntcoAtReceivingEstablishmentLogsOn.png"><img src="graphs/ntcoAtReceivingEstablishmentLogsOn.png" width="800"></a><br>
