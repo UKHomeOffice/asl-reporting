@@ -9,4 +9,4 @@ NTCO at receiving establishment Logs on<br><a href="graphs/ntcoAtReceivingEstabl
 PIL transfer shows on NTCO's task list<br><a href="graphs/PILTransferShowsOnTaskList.png"><img src="graphs/PILTransferShowsOnTaskList.png" width="800"></a><br>
 NTCO reviews and endorses PIL transfer <br><a href="graphs/ntcoReviewsAndEndorsesTransfer.png"><img src="graphs/ntcoReviewsAndEndorsesTransfer.png" width="800"></a><br>
 NTCO comments and confirms endorsement <br><a href="graphs/reviewAndConfirmEndorsment.png"><img src="graphs/reviewAndConfirmEndorsment.png" width="800"></a><br>
-Transfer is sent to ASRU for approval <br><a href="graphs/reviewAndConfirmEndorsment.png"><img src="graphs/reviewAndConfirmEndorsment.png" width="800"></a><br>
+Transfer is sent to ASRU for approval <br><a href="graphs/withASRUforApproval.png"><img src="graphs/withASRUforApproval.png" width="800"></a><br>
