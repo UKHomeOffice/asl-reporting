@@ -3,4 +3,5 @@ PIL Holder Home Page<br><a href="graphs/PILHolderHomePage.png"><img src="graphs/
 PIL Holder Views PIL<br><a href="graphs/PILHolderViewsPIL.png"><img src="graphs/PILHolderViewsPIL.png" width="800"></a><br>
 Click on Amend or Transfer Licence<br><a href="graphs/AmendOrTransferLicence.png"><img src="graphs/AmendOrTransferLicence.png" width="800"></a><br>
 Edit Establishment <br><a href="graphs/editEstablishment.png"><img src="graphs/editEstablishment.png" width="800"></a><br>
+Review and Confirm Changes <br><a href="graphs/reviewAndConfirmChanges.png"><img src="graphs/reviewAndConfirmChanges.png" width="800"></a><br>
 
