@@ -13,4 +13,5 @@ Transfer is sent to ASRU for approval <br><a href="graphs/withASRUforApproval.pn
 Licensing officer logs on<br><a href="graphs/licensingOfficerLogsOn.png"><img src="graphs/licensingOfficerLogsOn.png" width="800"></a><br>
 PIL transfer is in task list<br><a href="graphs/PILTranserIsInTaskList.png"><img src="graphs/PILTranserIsInTaskList.png" width="800"></a><br>
 Licensing officer reviews and approves PIL Transfer<br><a href="graphs/reviewAndApproveTransfer.png"><img src="graphs/reviewAndApproveTransfer.png" width="800"></a><br>
-Licensing officer comments and confirms PIL Transer<br><a href="graphs/commentAndConfirmPILTransfer.png"><img src="graphs/commentAndConfirmPILTransfer.png" width="800"></a><br>
+Licensing officer comments and confirms PIL Transfer<br><a href="graphs/commentAndConfirmPILTransfer.png"><img src="graphs/commentAndConfirmPILTransfer.png" width="800"></a><br>
+PIL Transfer is approved<br><a href="graphs/PILTransferApproved.png"><img src="graphs/PILTransferApproved.png" width="800"></a><br>
