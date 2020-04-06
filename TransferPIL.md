@@ -10,6 +10,6 @@ PIL transfer shows on NTCO's task list<br><a href="graphs/PILTransferShowsOnTask
 NTCO reviews and endorses PIL transfer <br><a href="graphs/ntcoReviewsAndEndorsesTransfer.png"><img src="graphs/ntcoReviewsAndEndorsesTransfer.png" width="800"></a><br>
 NTCO comments and confirms endorsement <br><a href="graphs/reviewAndConfirmEndorsment.png"><img src="graphs/reviewAndConfirmEndorsment.png" width="800"></a><br>
 Transfer is sent to ASRU for approval <br><a href="graphs/withASRUforApproval.png"><img src="graphs/withASRUforApproval.png" width="800"></a><br>
-Licensing officer logs on <br><a href="graphs/licensingOfficerLogsOn.png"><img src="graphs/licensingOfficerLogsOn.png" width="800"></a><br>
-
+Licensing officer logs on<br><a href="graphs/licensingOfficerLogsOn.png"><img src="graphs/licensingOfficerLogsOn.png" width="800"></a><br>
+PIL transfer is in task list<br><a href="graphs/PILTranserIsInTaskList.png"><img src="graphs/PILTranserIsInTaskList.png" width="800"></a><br>
 
