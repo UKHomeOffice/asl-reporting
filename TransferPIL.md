@@ -17,4 +17,4 @@ Licensing officer reviews and approves PIL Transfer<br><a href="graphs/reviewAnd
 Licensing officer comments and confirms PIL Transfer<br><a href="graphs/commentAndConfirmPILTransfer.png"><img src="graphs/commentAndConfirmPILTransfer.png" width="800"></a><br>
 PIL Transfer is approved<br><a href="graphs/PILTransferApproved.png"><img src="graphs/PILTransferApproved.png" width="800"></a><br>
 Log in as PIL Holder<br><a href="graphs/PILHolderLogsIn.png"><img src="graphs/PILHolderLogsIn.png" width="800"></a><br>
-PIL is now at the university of Croydon<br><a href="graphs/PILIsNowAtUniversityOfCroydon.png"><img src="graphs/PILIsNowAtUniversityOfCroydon.png" width="800"></a><br>
+PIL is now at the University of Croydon<br><a href="graphs/PILIsNowAtUniversityOfCroydon.png"><img src="graphs/PILIsNowAtUniversityOfCroydon.png" width="800"></a><br>
