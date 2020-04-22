@@ -6,7 +6,7 @@ set timefmt "%Y%m%d"
 set format x "%d-%b-%y"
 set xdata time
 set xrange ["20200101":"20211231"]
-set yrange [0:2000]
+set yrange [0:4000]
 set xtics font ", 16"
 set xtics rotate by 45 right
 set xtics nomirror "20200101",2592000, "20211231"
