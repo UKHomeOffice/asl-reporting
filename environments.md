@@ -16,10 +16,10 @@ http://internal-ui.preprod.asl.homeoffice.gov.uk/
 ## Dev
 
 ### Public
-[Public Dev https://public-ui.dev.asl.homeoffice.gov.uk/?widescreen=true](https://public-ui.dev.asl.homeoffice.gov.uk/)
+[Public Dev https://public-ui.dev.asl.homeoffice.gov.uk/?widescreen=true](https://public-ui.dev.asl.homeoffice.gov.uk/?widescreen=true)
 
 ### Internal
-[Internal Dev https://internal-ui.dev.asl.homeoffice.gov.uk/?widescreen=true](https://internal-ui.dev.asl.homeoffice.gov.uk/)
+[Internal Dev https://internal-ui.dev.asl.homeoffice.gov.uk/?widescreen=true](https://internal-ui.dev.asl.homeoffice.gov.uk/?widescreen=true)
 
 ## DT (Drafting Tool)
 
