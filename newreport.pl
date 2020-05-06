@@ -51,7 +51,7 @@ say $bash_command;
 $SPRINT_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $SPRINT_FILE);
 
-my $bash_command = "bash getscreenshot.sh $username $password \'$SPRINT_STORIES_2\'";
+$bash_command = "bash getscreenshot.sh $username $password \'$SPRINT_STORIES_2\'";
 say $bash_command;
 ## stories in the sprint - second page
 `$bash_command`;
