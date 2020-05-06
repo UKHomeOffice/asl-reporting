@@ -8,10 +8,10 @@ http://internal-ui.preprod.asl.homeoffice.gov.uk/
 
 ## Pre Prod
 ### Public
-[Public PreProd https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true](https://public-ui.preprod.asl.homeoffice.gov.uk/)
+[Public PreProd https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true](https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true)
 
 ### Internal (needs a VPN unless you're in London Bridge office) SEE BOTTOM OF PAGE FOR VPN
-[Internal PreProd https://internal-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true](https://internal-ui.preprod.asl.homeoffice.gov.uk/)
+[Internal PreProd https://internal-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true](https://internal-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true)
 
 ## Dev
 
