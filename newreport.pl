@@ -50,6 +50,16 @@ say $bash_command;
 
 $SPRINT_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $SPRINT_FILE);
+
+my $bash_command = "bash getscreenshot.sh $username $password \'$SPRINT_STORIES_2\'";
+say $bash_command;
+## stories in the sprint - second page
+`$bash_command`;
+
+$SPRINT_FILE_2 =~ s/DATE_SHORT/$date_short/g;
+copy ($OUTPUT_FILE, $SPRINT_FILE_2);
+
+
 $RECENT_BUGS =~ s/JIRA_DATE_FORMAT/$date_jira_format/;
 
 
