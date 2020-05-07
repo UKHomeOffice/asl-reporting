@@ -1,0 +1,32 @@
+%YAML 1.1   # Reference card
+---
+Values:
+        TEMPLATE: ./REPORT_TEMPLATE.md
+        SPRINT_STORIES: https://collaboration.homeoffice.gov.uk/jira/issues/?jql=Project%20%3D%20%22Animal%20Science%20Licensing%22%20%20AND%20Sprint%20in%20openSprints()%20ORDER%20BY%20status%20DESC
+        SPRINT_STORIES_2: https://collaboration.homeoffice.gov.uk/jira/issues/?jql=Project%20%3D%20%22Animal%20Science%20Licensing%22%20%20AND%20Sprint%20in%20openSprints()%20ORDER%20BY%20status%20DESC&startIndex=50 
+        RECENT_BUGS: https://collaboration.homeoffice.gov.uk/jira/issues/?jql=issuetype%20%3D%20Bug%20AND%20project%20%3D%20ASL%20and%20status%20in%20(Done)and%20updatedDate>=JIRA_DATE_FORMAT
+        TODO: https://collaboration.homeoffice.gov.uk/jira/issues/?jql=Project%20%3D%20%22Animal%20Science%20Licensing%22%20%20and%20status%20not%20in%20(%22In%20Progress%22%2C%20Done%2C%20Cancelled%2C%20Archived)%20and%20labels%20!%3D%20%22Risk%22
+        DOING: https://collaboration.homeoffice.gov.uk/jira/issues/?jql=Project%20%3DASL%20and%20status%20in%20(%22In%20Progress%22)%20and%20labels%20!%3D%20%22Risk%22
+        DONE: https://collaboration.homeoffice.gov.uk/jira/issues/?jql=Project%20%3D%20%22Animal%20Science%20Licensing%22%20%20and%20status%20in%20(Done)%20and%20labels%20!%3D%20Risk%20and%20labels%20!%3DARCHIVED_CANCELLED
+        BOARD_BASE: https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa
+        BOARD: https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa?rapidView=1717&projectKey=ASSB&view=reporting&chart=cumulativeFlowDiagram&swimlane=5076&column=13831&column=13832&column=13839&column=13833
+        JIRA_BASE: https://collaboration.homeoffice.gov.uk/jira
+        OUTPUT_FILE: ./graphs/url.png
+        BOARD_FILE: ./graphs/supportBoardDATE_SHORT.png
+        BUGS_FILE: ./graphs/bugsDATE_SHORT.png
+        SPRINT_FILE_2: ./graphs/sprintDATE_SHORT_2.png
+        SPRINT_FILE: ./graphs/sprintDATE_SHORT.png
+        PROGRESS_GNU_FILE: progress.gnu
+        PROGRESS_DAT_FILE: ./graphs/progress.dat
+        PROGRESS_OUTPUT_FILE: progress.png
+        PROGRESS_FILE: progressDATE_SHORT.png
+        TRELLO_BASE: https://trello.com/login
+        TRELLO_ROADMAP: https://trello.com/b/KpVVpCty/post-release-roadmap
+        TRELLO_USERNAME: mark.stringer@mumbly.co.uk
+        TRELLO_PASSWORD: W5b^8zJzJVj
+        TRELLO_LOGIN_XPATH: //input[@id="user"]
+        TRELLO_PASSWORD_XPATH: //input[@id="password"]
+        TRELLO_BOARD: https://trello.com/login
+        TRELLO_FILE: ./graphs/roadmapDATE_SHORT.png
+        TRELLO_ROADMAP_JSON: https://trello.com/b/KpVVpCty.json 
+        TRELLO_ROADMAP_JSON_FILE: file.json
