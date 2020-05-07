@@ -59,11 +59,14 @@ say $bash_command;
 $SPRINT_FILE_2 =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $SPRINT_FILE_2);
 
-`convert $SPRINT_FILE_2 $SPRINT_FILE $OUTPUT_FILE`;
+$bash_command  = "convert $SPRINT_FILE $SPRINT_FILE_2 -append $OUTPUT_FILE";
 
-## copy ($OUTPUT_FILE, $SPRINT_FILE);
+say $bash_command;
+`$bash_command`;
 
+copy ($OUTPUT_FILE, $SPRINT_FILE);
 
+exit 0;
 $RECENT_BUGS =~ s/JIRA_DATE_FORMAT/$date_jira_format/;
 
 
