@@ -66,7 +66,6 @@ say $bash_command;
 
 copy ($OUTPUT_FILE, $SPRINT_FILE);
 
-exit 0;
 $RECENT_BUGS =~ s/JIRA_DATE_FORMAT/$date_jira_format/;
 
 
@@ -124,7 +123,7 @@ chdir '..';
 `pwd`;
 `./newburn.sh`;
 
-## look for the Analytics file
-`touch ~/Downloads/timestamp -d $date_jira_format`;
-(my $analytics_file = `find ~/Downloads -newer ~/Downloads/timestamp | grep Analytics | grep pdf`)=~ s/\n//g || die "No recent Analytics file";
-say $analytics_file;
+`gan`;
+
+$GA_FILE =~ s/DATE_SHORT/$date_short/g;
+copy ($GA_OUTPUT_FILE, $GA_FILE);
