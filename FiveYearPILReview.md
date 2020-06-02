@@ -10,8 +10,10 @@ Click on confirmation link<br><a href="graphs/clickOnConfirmationLink.png"><img 
 Confirm Review<br><a href="graphs/confirmReview.png"><img src="graphs/confirmReview.png" width="800"></a><br>
 Confirmation Sent<br><a href="graphs/confirmationSent.png"><img src="graphs/confirmationSent.png" width="800"></a><br>
 
-NTCO logs on
-Endorsment appears in task list
-
+NTCO logs on <br><a href="graphs/ntcoLogsOn.png"><img src="graphs/ntcoLogsOn.png" width="800"></a><br>
+PIL review appears in NTCO's task list<br><a href="graphs/pilReviewIsInTaskList.png"><img src="graphs/pilReviewIsInTaskList.png" width="800"></a><br>
+NTCO selects to endorse PIL review<br><a href="graphs/ntcoEndorsesPILReview.png"><img src="graphs/ntcoEndorsesPILReview.png" width="800"></a><br>
+NTCO final comments and endorse<br><a href="graphs/ntcoCommentsOnEndorsment.png"><img src="graphs/ntcoCommentsOnEndorsment.png" width="800"></a><br>
+PIL review is complete<br><a href="graphs/pilReivewIsComplete.png"><img src="graphs/pilReivewIsComplete.png" width="800"></a><br>
 
 
