@@ -29,10 +29,9 @@ We planned the following issues in this sprint
 
 [Post Release Roadmap](graphs/roadmapDATE_SHORT.png)
 
-Our goals for the current sprint are:
-1. TEXT_HERE 
-2. TEXT_HERE
-3. TEXT_HERE
+CURRENT_SPRINT_GOALS
+
+PREVIOUS_SPRINT_GOALS
 
 ## Sample Design Prototypes
 <a href="graphs/proto1_DATE_SHORT.png"><img src="graphs/proto1_DATE_SHORT.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
