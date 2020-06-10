@@ -24,8 +24,9 @@ The following bugs were fixed this week.
 ## Click here for metrics / progress against plan
 [RRRWEEK_SPRINT_RELEASE](graphs/progressRRRDATE_SHORT.png)
 
-Our goals for the sprint are:
-* RRR_TEXT_FILL
+RRRCURRENT_GOALS
+
+RRRPREVIOUSGOALS
 
 ## Google Analytics for this report
 [Google Analytics](graphs/GARRRDATE_SHORT.jpg)
