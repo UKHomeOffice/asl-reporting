@@ -238,4 +238,3 @@
 
 [Environments](environments.md)
 
-[Template](reportTemplate.md)
