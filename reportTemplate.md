@@ -22,17 +22,24 @@
 
 ## Click here for Prioritised Road Map
 [Prioritised Road Map](https://trello.com/b/p7x9hbPV/prioritised-roadmap)    [\(Cached Image\)](graphs/ASLRoadMap15052019.jpg)
+<a href="graphs/ASLRoadMap15052019.jpg"><img src="graphs/ASLRoadMap15052019.jpg" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
 
 ## Week on week progress
-[Week 1 Sprint 10](graphs/progress15052019.png)
+<br>
+<a href="graphs/progress15052019.png"><img src="graphs/progress15052019.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
+
 
 ## Development Progress vs Deadline
-<a href="graphs/ReportTemplateBurnup.png"><img src="graphsReportTemplateBurnup.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<a href="graphs/ReportTemplateBurnup.png"><img src="graphs/ReportTemplateBurnup.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
 <br>
 
 ## Risks
-[Links to Project Risks in Trello](https://trello.com/b/VuFuCL7t/risk-register-and-kpis-asl-delivery) 
 [Link to Risk Chart](graphs/risk15052019.png)
+<a href="graphs/risk15052019.png"><img src="graphs/risk15052019.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
+
 
 ## Sprint Planning
 * We planned the following issues in sprint planning today
