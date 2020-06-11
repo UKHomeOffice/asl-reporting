@@ -22,12 +22,12 @@
 
 ## Click here for Prioritised Road Map
 <br>
-<a href="graphs/ASLRoadMap15052019.jpg"><img src="graphs/ASLRoadMap15052019.jpg" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
+<a href="graphs/templateASLRoadMap.jpg"><img src="graphs/templateASLRoadMap.jpg" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
 <br>
 
 ## Week on week progress
 <br>
-<a href="graphs/progress15052019.png"><img src="graphs/progress15052019.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
+<a href="graphs/templateProgress.png"><img src="graphs/templateProgress.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
 <br>
 
 
@@ -38,14 +38,14 @@
 
 ## Risks
 <br>
-<a href="graphs/risk15052019.png"><img src="graphs/risk15052019.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
+<a href="graphs/templateRisk.png"><img src="graphs/templateRisk.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
 <br>
 
 
 ## Sprint Planning
 * We planned the following issues in sprint planning today
 <br>
-<a href="graphs/sprint15052019.png"><img src="graphs/sprint15052019.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
+<a href="graphs/templateSprint.png"><img src="graphs/templateSprint.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
 <br>
 
 ### Our goals for the previous sprint were:
@@ -63,14 +63,13 @@
 3. Ullamcorper urna turpis.
 
 ## Screenshots of the application design prototype
-<a href="graphs/proto1_15052019.png"><img src="graphs/proto1_15052019.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
+<a href="graphs/templateProto1.png"><img src="graphs/templateProto1.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
 <br>
-<a href="graphs/proto2_15052019.png"><img src="graphs/proto2_15052019.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
+<a href="graphs/templateProto2.png"><img src="graphs/templateProto2.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
 <br>
 
 ## Google Analytics 
-[Google Analytics](graphs/GA15052019.jpg)
 <br>
-<a href="graphs/GA15052019.jpg"><img src="graphs/GA15052019.jpg" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
+<a href="graphs/templateGA.jpg"><img src="graphs/templateGA.jpg" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
 <br>
 
