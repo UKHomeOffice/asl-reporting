@@ -68,6 +68,9 @@
 <a href="graphs/proto2_15052019.png"><img src="graphs/proto2_15052019.png" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
 <br>
 
-## Google Analytics for this report
+## Google Analytics 
 [Google Analytics](graphs/GA15052019.jpg)
+<br>
+<a href="graphs/GA15052019.jpg"><img src="graphs/GA15052019.jpg" alt="HTML5 Icon" width="400" style="border:2px solid black"></a>
+<br>
 
