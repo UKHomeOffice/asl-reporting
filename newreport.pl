@@ -39,26 +39,18 @@ my $report_file = "report$date_short.md";
 
 copy($TEMPLATE,$report_file) or die "Copy failed: $!";
 
-##my $file = path($report_file);
-##my $data = $file->slurp_utf8;
-##$data =~ s/DATE_SHORT/$date_short/g;
-##$data =~ s/DATE_LONG/$date_long/g;
-##$data =~ s/SPRINT_NO/$sprint/g;
-##$file->spew_utf8( $data );
 
-my $bash_command = "bash getscreenshot.sh $username $password \'$SPRINT_STORIES\'";
-say $bash_command;
-## stories in the sprint
-`$bash_command`;
+my $bash_command;
+## get the jira screenshot
+my $driver = Selenium::Firefox->new;
+##goto TRELLO;
+screenshot($driver, $JIRA_BASE, $SPRINT_STORIES, $username, $password);
 
 $SPRINT_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $SPRINT_FILE);
-
-$bash_command = "bash getscreenshot.sh $username $password \'$SPRINT_STORIES_2\'";
-say $bash_command;
-## stories in the sprint - second page
-`$bash_command`;
-
+$driver->close();
+$driver = Selenium::Firefox->new;
+screenshot($driver, $JIRA_BASE, $SPRINT_STORIES_2, $username, $password);
 $SPRINT_FILE_2 =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $SPRINT_FILE_2);
 
@@ -68,34 +60,44 @@ say $bash_command;
 `$bash_command`;
 
 copy ($OUTPUT_FILE, $SPRINT_FILE);
+$driver->close();
+
 
 $RECENT_BUGS =~ s/JIRA_DATE_FORMAT/$date_jira_format/;
-
-
-## get the jira screenshots
-$bash_command = "bash getscreenshot.sh $username $password \'$RECENT_BUGS\'";
-say $bash_command;
-## stories in the sprint
-`$bash_command`;
-
+$driver = Selenium::Firefox->new;
+screenshot($driver, $JIRA_BASE, $RECENT_BUGS, $username, $password);
 $BUGS_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $BUGS_FILE);
+$driver->close();
 
 ## get the jira screenshot
-my $driver = Selenium::Firefox->new;
+$driver = Selenium::Firefox->new;
 screenshot($driver, $BOARD_BASE, $BOARD, $username, $password);
 
 $BOARD_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($OUTPUT_FILE, $BOARD_FILE);
+$driver->close();
 
+TRELLO:
 $driver = Selenium::Firefox->new;
-screenshot($driver, $TRELLO_BASE, $TRELLO_ROADMAP, $TRELLO_USERNAME, $TRELLO_PASSWORD, $TRELLO_LOGIN_XPATH, $TRELLO_PASSWORD_XPATH);
+$driver->fullscreen_window();
+$driver->get($TRELLO_BASE);
+login($driver, $TRELLO_USERNAME, $TRELLO_PASSWORD, $TRELLO_LOGIN_XPATH, $TRELLO_PASSWORD_XPATH);
+clickOnThing($driver, '//input[@id=\'login\']', 'xpath');
+$driver->pause(5000);
+clickOnThing($driver, '//input[@id=\'password\']', 'xpath');
+replaceTextInThing($driver, $TRELLO_PASSWORD);
+$driver->pause(5000);
+clickOnThing($driver, '//button[@id=\'login-submit\']', 'xpath');
 $TRELLO_FILE =~ s/DATE_SHORT/$date_short/g;
+$driver->pause(10000);
+$driver->get($TRELLO_ROADMAP);
+$driver->pause(500);
+$driver->capture_screenshot($OUTPUT_FILE, {'full' => 1});
+$driver->pause(5000);
 copy ($OUTPUT_FILE, $TRELLO_FILE);
 
-##$driver = Selenium::Firefox->new;
-##savefile($driver, $TRELLO_BASE, $TRELLO_ROADMAP_JSON, $TRELLO_USERNAME, $TRELLO_PASSWORD, $TRELLO_LOGIN_XPATH, $TRELLO_PASSWORD_XPATH, $TRELLO_ROADMAP_JSON_FILE);
-##exit(1);
+$driver->close();
 
 $driver = Selenium::Chrome->new;
 $driver->get($JIRA_BASE);
@@ -157,11 +159,8 @@ $bash_command = "gnuplot $PROGRESS_GNU_FILE";
 `$bash_command`;
 $PROGRESS_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($PROGRESS_OUTPUT_FILE, $PROGRESS_FILE);
-chdir '..';
-`pwd`;
-`./newburn.sh`;
-
-`gan`;
-
-$GA_FILE =~ s/DATE_SHORT/$date_short/g;
-copy ($GA_OUTPUT_FILE, $GA_FILE);
+##chdir '..';
+##`pwd`;
+##`./newburn.sh`;
+##$GA_FILE =~ s/DATE_SHORT/$date_short/g;
+##copy ($GA_OUTPUT_FILE, $GA_FILE);
