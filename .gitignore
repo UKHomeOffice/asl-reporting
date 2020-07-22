@@ -2,4 +2,5 @@ ignore/
 */node_modules/
 *.html
 *.js
+*.key
 */*files/*
