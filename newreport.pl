@@ -159,8 +159,8 @@ $bash_command = "gnuplot $PROGRESS_GNU_FILE";
 `$bash_command`;
 $PROGRESS_FILE =~ s/DATE_SHORT/$date_short/g;
 copy ($PROGRESS_OUTPUT_FILE, $PROGRESS_FILE);
-##chdir '..';
-##`pwd`;
-##`./newburn.sh`;
-##$GA_FILE =~ s/DATE_SHORT/$date_short/g;
-##copy ($GA_OUTPUT_FILE, $GA_FILE);
+
+## do the google analytics
+`gan`;
+$GA_FILE =~ s/DATE_SHORT/$date_short/g;
+copy ($GA_OUTPUT_FILE, $GA_FILE);
