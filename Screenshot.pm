@@ -7,7 +7,7 @@ use lib cwd;
 use Selenium::Remote::Driver;
 use Selenium::Chrome;
 use Selenium::Firefox;
-use Firefox::Marionette();
+##use Firefox::Marionette();
 use Selenium::Remote::WDKeys;
 use Data::Dumper;
 use ReportConsts;
