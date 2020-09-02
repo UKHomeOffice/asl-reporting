@@ -7,7 +7,7 @@ set xtics rotate
 set grid y
 set style fill solid 1.0 border -1
 set ytics 50 nomirror
-set yrange [:2500]
+set yrange [:3000]
 set ylabel "Number of Issues"
 
 # This won't affect histogram plots since they just treat the
