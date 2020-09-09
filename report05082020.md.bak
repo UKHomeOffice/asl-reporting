@@ -1,0 +1,64 @@
+# Summary as of Wednesday 05 August 2020 
+
+# Sprint 64
+
+## Just Done
+* Initial prototype for submitting a retrospective assessment - design 
+* Prototype testing for retrospective assessment submission - user research
+* Initial content for submitting a retrospective assessment - content design
+* Make the success pages more reliable - working software
+* Aliased shortened names in people search - working software
+* Highlight changes in PIL amendments - working software
+* Route PPL amendments via admin user for approval - working software 
+* Fix issues with T&E PPL document outputs - working software
+* Include applicant training in PPL applications (in progress) - working software
+
+## About to Do/Doing
+* Improvements to the retrospective assessment journey and NTS - design
+* Improvements to content for submitting a retrospective assessment - content design
+* Enable creation of a training course with Cat E Pils - working software
+* Improvements to PPL application/review interface - working software
+* Change PPL submission process to have admins declare AWERB process complete - working software
+* Category E PILs - working software
+
+## Things to be aware of
+* We need to publish our accessibility statement by 23 September as outlined here [https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#deadlines](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#deadlines)
+
+## Bugs Fixed this week
+The following bugs were fixed this week.
+[Bug Fixes week to Wednesday 05 August 2020](graphs/bugs05082020.png)
+
+We planned the following issues in this sprint 
+[Sprint 64](graphs/sprint05082020.png)
+
+## Support tickets and known issues
+[Link to Support Board](https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa?rapidView=1717&selectedIssue=ASSB-253)
+
+[Support board - cached](graphs/supportBoard05082020.png)
+
+## Click here for metrics / progress against plan
+[Sprint 64](graphs/progress05082020.png)
+
+[Post Release Roadmap](graphs/roadmap05082020.png)
+
+## These are the goals for the current sprint:
+
+1. Design - NTS Improvements 
+2. Create a training course with Cat E PILs - working software 
+3. Iterate RA prototypes - content design
+
+## These were the goals for the previous sprint:
+
+1. Design and Content - Prototype for submission of a retrospective assessment ***[Done]***
+2. Working Software - Training profiles ***[In Progress]***
+3. User Research - complete prototype testing for RA submission ***[Done]***
+
+## Sample Design Prototypes
+### Initial prototype for submitting a retrospective assessment 
+<a href="graphs/proto1_05082020.png"><img src="graphs/proto1_05082020.png" alt="HTML5 Icon" width="200" style="border:2px solid black"></a>
+<br>
+
+
+## Google Analytics for this report
+[Google Analytics](graphs/GA05082020.png)
+

@@ -1,0 +1,5 @@
+Blocker: App is completely broken
+Critical: Core functionality is broken for all users and all data
+Major: Core functionality is broken for some users or some data
+Minor: Content is incorrect/confusing/odd but functionality is available
+Trivial: Cosmetic issues

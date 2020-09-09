@@ -1,0 +1,6 @@
+#! /bin/bash
+
+wget --save-cookies cookies.txt \
+     --keep-session-cookies \
+     --delete-after \
+     https://www.google.com

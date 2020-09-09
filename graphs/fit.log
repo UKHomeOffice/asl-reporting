@@ -2292,3 +2292,171 @@ correlation matrix of the fit parameters:
                 a2     b2     
 a2              1.000 
 b2             -1.000  1.000 
+
+
+*******************************************************************************
+Thu Jan 16 14:33:31 2020
+
+
+FIT:    data read from datafile u 1:2
+        format = x:z
+        x range restricted to ["20200101" : "21390801"]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.1688369524e+04   0.00e+00  1.12e+01    1.000000e+00   1.000000e-08
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Thu Jan 16 14:34:11 2020
+
+
+FIT:    data read from datafile u 1:2
+        format = x:z
+        x range restricted to ["20200101" : "21390801"]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.1688369524e+04   0.00e+00  1.12e+01    1.000000e+00   1.000000e-08
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Thu Jan 16 15:06:43 2020
+
+
+FIT:    data read from datafile u 1:2
+        format = x:z
+        x range restricted to ["20180601" : "21390801"]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.1688460641e+04   0.00e+00  1.12e+01    1.000000e+00   1.000000e-08
+  11 6.1296183653e-23   0.00e+00  1.12e-02   -7.987425e+04   5.069444e-05
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 6.12962e-23
+rel. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -79874.2       
+b               = 5.06944e-05    
+
+
+*******************************************************************************
+Thu Jan 16 15:08:00 2020
+
+
+FIT:    data read from datafile u 1:2
+        format = x:z
+        x range restricted to ["20180601" : "21390801"]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.1688460641e+04   0.00e+00  1.12e+01    1.000000e+00   1.000000e-08
+  11 6.1296183653e-23   0.00e+00  1.12e-02   -7.987425e+04   5.069444e-05
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 6.12962e-23
+rel. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -79874.2       
+b               = 5.06944e-05    
+
+
+*******************************************************************************
+Thu Jan 16 15:12:54 2020
+
+
+FIT:    data read from datafile u 1:2
+        format = x:z
+        x range restricted to ["20180601" : "21390801"]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.1690210994e+04   0.00e+00  1.12e+01    1.000000e+00   1.000000e-08
+  10 6.2886729187e-24   0.00e+00  1.12e-09   -3.984105e+04   2.534722e-05
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 6.28867e-24
+rel. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -39841         
+b               = 2.53472e-05    
+
+
+*******************************************************************************
+Mon Jan 20 12:38:40 2020
+
+
+FIT:    data read from datafile u 1:2
+        format = x:z
+        x range restricted to ["20180601" : "21390801"]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.1691120047e+04   0.00e+00  1.12e+01    1.000000e+00   1.000000e-08
+  11 1.0348239489e-22   0.00e+00  1.12e-10   -5.075083e+04   3.226010e-05
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 1.03482e-22
+rel. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -50750.8       
+b               = 3.22601e-05    
