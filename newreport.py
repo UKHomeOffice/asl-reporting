@@ -1,60 +1,48 @@
-import getopt
 import sys
-import commands
-from ruamel import yaml
-from shutil import copyfile
-
-sub login (driver, username, password, userbox = "//*[@id=\'login-form-username\']", passwordbox = "//*[@id=\'login-form-password\']"):
-        clickOnThing($driver, $userbox, 'xpath')
-        $driver->send_keys_to_active_element($username)
-        clickOnThing($driver, $passwordbox, 'xpath')
-        $driver->send_keys_to_active_element($password)
-        clickOnThing($driver, '//input[@value=\'Log In\']', 'xpath')
-
-def screenshot(driver, first_url, second_url, username, password, username_box = "//*[@id=\'login-form-username\']", password_box = "//*[@id=\'login-form-password\']"):
-        driver->fullscreen_window()
-        driver->get(first_url)
-        login(driver, username, password, username_box, password_box)
-        driver->get(second_url)
-        filename = data['Values']['OUTPUT_FILE']
-        driver->capture_screenshot(filename, {'full' => 1})
-
+import getopt
+import subprocess
 def main(argv):
     try:
-        opts, args = getopt.getopt(argv,"o:u:p:")
+        opts, args = getopt.getopt(argv,"o:y:")
     except getopt.GetoptError:
-        print 'newreport.py -o dateoffset -u username -p password'
+        print 'newreport.py o:<date offset> y:<yamlfile>'
         sys.exit(2)
     for opt, arg in opts:
-        if opt in ("-u"):
-            username = arg
-        elif opt in ("-p"):
-            password = arg
-        elif opt in ("-o"):
-            dateoffset = arg
-    print username
-    print password
-    print dateoffset
+        if opt in ("-o"):
+            offset = arg
+        elif opt in ("-y"):
+            yamlfile = arg
+    print ("Offset is: "+offset)
+    print ("yamlfile: "+yamlfile)
 
-    date_short = commands.getoutput("date --date \'"+dateoffset+"\' +%d%m%Y").rstrip()
-    date_jira_seconds = commands.getoutput("date --date \'"+dateoffset+"\' +%s").rstrip()
-    date_jira_seconds = int (date_jira_seconds) - (60*60*24*7)
-    date_jira_format = commands.getoutput("date -d \'@"+str(date_jira_seconds)+"\' +%Y-%m-%d").rstrip()
-    date_long = commands.getoutput("date --date \'"+dateoffset+"\' \"+%A %d %B %Y\"").rstrip()
-    date_for_seconds = commands.getoutput ("date --date \'"+dateoffset+"\' +%Y%m%d").rstrip()
-    start_seconds = commands.getoutput("date --date \"20180207\" +%s").rstrip()
-    end_seconds = commands.getoutput("date --date \""+date_long+"\" +%s").rstrip()
-    report_file = "report"+date_short+".md"
-    data = yaml.safe_load(open('report.yaml'))
-    copyfile(data['Values']['TEMPLATE'], report_file)
-    
-    driver = webdriver.Firefox()
-    driver.implicitly_wait(30)
-    driver.maximize_window()
-    screenshot(driver, data['Values']['JIRA_BASE'], data['Values']['SPRINT_STORIES'], username, password)
+    ## calculate all the dates
+    ##date_short = 'date --date '+offset+' +%d%m%Y'
+    date_short = subprocess.Popen('date --date '+offset+' +%d%m%Y', shell=True, stdout=subprocess.PIPE).stdout.read().strip()
+    date_jira_seconds = subprocess.Popen('date --date '+offset+' +%s', shell=True, stdout=subprocess.PIPE).stdout.read().strip()
+    date_jira_seconds = int(date_jira_seconds) - (60*60*24*7)
+    date_jira_format =  subprocess.Popen('date -d @'+str(date_jira_seconds)+' +%Y-%m-%d', shell=True, stdout=subprocess.PIPE).stdout.read().strip()
+    date_long = subprocess.Popen('date --date '+offset+' +"%A %d %B %Y"' , shell=True, stdout=subprocess.PIPE).stdout.read().strip()
+    date_for_seconds = subprocess.Popen('date --date '+offset+' +%Y%m%d', shell=True, stdout=subprocess.PIPE).stdout.read().strip()
+    start_seconds = subprocess.Popen('date --date "20180207" +%s', shell=True, stdout=subprocess.PIPE).stdout.read().strip()
+    print ("date_short "+date_short)
+    print ("date_jira_seconds "+ str(date_jira_seconds))
+    print ("date_jira_format "+ date_jira_format)
+    print ("date_long "+date_long)
+    print ("date_for_seconds "+date_for_seconds)
+    print ("start_seconds "+start_seconds)
+    sys.exit(2)
 
-if __name__ == "__main__":
-    main(sys.argv[1:])
+####(my $start_seconds = `date --date "20180207" +%s`) =~ s/\n//g;
+####(my $end_seconds = `date --date \"$date_long\" +%s`) =~ s/\n//g;
+####my $report_file = "report$date_short.md";
+####
+####copy($TEMPLATE,$report_file) or die "Copy failed: $!";
+####
+####
+####my $bash_command;
+###### get the jira screenshot
+####my $driver = Selenium::Firefox->new;
+######goto TRELLO;
 ####screenshot($driver, $JIRA_BASE, $SPRINT_STORIES, $username, $password);
 ####
 ####$SPRINT_FILE =~ s/DATE_SHORT/$date_short/g;
@@ -175,3 +163,7 @@ if __name__ == "__main__":
 ####`gan`;
 ####$GA_FILE =~ s/DATE_SHORT/$date_short/g;
 ####copy ($GA_OUTPUT_FILE, $GA_FILE);
+
+if __name__ == "__main__":
+   main(sys.argv[1:])
+
