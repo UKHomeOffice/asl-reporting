@@ -1,23 +1,22 @@
-#! /usr/local/bin/perl
+#! /usr/bin/perl 
 use strict;
 use warnings;
 use Cwd;
 use lib cwd;
-use ReportConsts;
 use Selenium::Remote::Driver;
 use Selenium::Chrome;
 use Selenium::Firefox;
-use Firefox::Marionette();
 use Selenium::Remote::WDKeys;
+use File::Slurp;
 
 use 5.010;
 use Path::Tiny qw(path);
-use File::Copy "copy";
+use File::Copy "cp";
 use TestASL;
 use TestBits;
+use TestReader;
 
-
-my $driver = Selenium::Firefox->new ();
-$driver->get('https://www.theguardian.com/uk');
-my $filename = "test.png";
-$driver->capture_screenshot($filename, {'full' => 1});
+print "usage is: <file>";
+my $file     = shift || die "No file";
+my $driver = Selenium::Firefox->new;
+readScript($driver, $file);
