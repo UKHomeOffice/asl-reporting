@@ -1,0 +1,6 @@
+https://trello.com/login    go
+//input[@id="user"]    text    var    $yaml->[0]->{Values}->{TRELLO_USERNAME} 
+//input[@id="password"]    text    var    $yaml->[0]->{Values}->{TRELLO_PASSWORD}
+//input[@id='login-form-submit']    click
+https://trello.com/b/KpVVpCty/post-release-roadmap    go    5000
+./graphs/url.png    screen

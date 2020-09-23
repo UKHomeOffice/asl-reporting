@@ -15,8 +15,10 @@ use File::Copy "cp";
 use TestASL;
 use TestBits;
 use TestReader;
+use YAML::Tiny;
 
+my $yaml = YAML::Tiny->read( 'report.yaml' );
 print "usage is: <file>";
 my $file     = shift || die "No file";
 my $driver = Selenium::Firefox->new;
-readScript($driver, $file);
+readScript($driver, $file, $yaml);

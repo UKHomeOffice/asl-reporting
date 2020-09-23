@@ -1,8 +1,8 @@
 https://collaboration.homeoffice.gov.uk/jira/login.jsp    go
-//input[@id='login-form-username']    text    var    $ENV{'JUN'}
-//input[@id='login-form-password']    text    var    $ENV{'JPW'}
+//input[@id='login-form-username']    text    var    $yaml->[0]->{Values}->{JUN}  
+//input[@id='login-form-password']    text    var    $yaml->[0]->{Values}->{JPW}
 //input[@id='login-form-submit']    click
 https://collaboration.homeoffice.gov.uk/jira/issues/?jql=Project%20%3D%20%22Animal%20Science%20Licensing%22%20%20AND%20Sprint%20in%20openSprints()%20ORDER%20BY%20status%20DESC    go
-url.png    screen
+./graphs/url.png    screen
 https://collaboration.homeoffice.gov.uk/jira/issues/?jql=Project%20%3D%20%22Animal%20Science%20Licensing%22%20%20AND%20Sprint%20in%20openSprints()%20ORDER%20BY%20status%20DESC&startIndex=50    go
-url2.png    screen
+./graphs/url2.png    screen
