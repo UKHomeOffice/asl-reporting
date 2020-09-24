@@ -1,6 +1,7 @@
-https://trello.com/login    go
-//input[@id="user"]    text    var    $yaml->[0]->{Values}->{TRELLO_USERNAME} 
-//input[@id="password"]    text    var    $yaml->[0]->{Values}->{TRELLO_PASSWORD}
+https://collaboration.homeoffice.gov.uk/jira/login.jsp    go
+//input[@id='login-form-username']    text    var    $yaml->[0]->{Values}->{JUN}  
+//input[@id='login-form-password']    text    var    $yaml->[0]->{Values}->{JPW}
 //input[@id='login-form-submit']    click
-https://trello.com/b/KpVVpCty/post-release-roadmap    go    5000
+https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa    go    5000
+https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa?rapidView=1717&projectKey=ASSB&view=reporting&chart=cumulativeFlowDiagram&swimlane=5076&column=13831&column=13832&column=13839&column=13833    go    5000
 ./graphs/url.png    screen
