@@ -1,0 +1,14 @@
+https://collaboration.homeoffice.gov.uk/jira/login.jsp    go
+//input[@id='login-form-username']    text    var    $yaml->[0]->{Values}->{JUN}  
+//input[@id='login-form-password']    text    var    $yaml->[0]->{Values}->{JPW}
+//input[@id='login-form-submit']    click
+https://collaboration.homeoffice.gov.uk/jira/issues/?jql=Project%20%3D%20%22Animal%20Science%20Licensing%22%20%20and%20status%20in%20(Done)%20and%20labels%20!%3D%20Risk%20and%20labels%20!%3DARCHIVED_CANCELLED    go    5000
+(//span[@class='results-count-total results-count-link'])[1]    value    done_progress
+https://collaboration.homeoffice.gov.uk/jira/issues/?jql=Project%20%3D%20%22Animal%20Science%20Licensing%22%20%20and%20status%20not%20in%20(%22In%20Progress%22%2C%20Done%2C%20Cancelled%2C%20Archived)%20and%20labels%20!%3D%20%22Risk%22    go    5000
+(//span[@class='results-count-total results-count-link'])[1]    value    todo_progress
+https://collaboration.homeoffice.gov.uk/jira/issues/?jql=Project%20%3DASL%20and%20status%20in%20(%22In%20Progress%22)%20and%20labels%20!%3D%20%22Risk%22    go
+(//span[@class='results-count-total results-count-link'])[1]    value    doing_progress
+https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa?rapidView=1706    go    5000
+//*[@id='ghx-sprint-goal']    value    current_goals
+https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa?rapidView=1706&view=reporting&chart=sprintRetrospective    go    5000
+//div[@class='ghx-sprint-goal']    value    previous_goals 

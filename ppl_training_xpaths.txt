@@ -1,0 +1,236 @@
+//h3[contains(.,'UXB')]    click    2000
+//h3[contains(.,'UXB')]/following::button[contains(.,'Apply')][1]    click    2000
+//a[contains(text(),'Introductory details')]    click
+//button[@class='govuk-button']    click
+//input[@id='title']    text
+//div[@name='project-aim']    text
+//div[@name='project-importance']    text
+//input[@id='training-licence-true']    select
+//div[@name='training-why-needed']    text
+//div[@name='training-related-discipline']    text
+//input[@id='keyword-0']    text    var    `word` 
+//input[@id='keyword-1']    text    var    `word`
+//input[@id='keyword-2']    text    var    `word`
+//input[@id='keyword-3']    text    var    `word`
+//input[@id='keyword-4']    text    var    `word`
+//label[contains(.,'Years')]/following::option[XXX_REPLACE_XXX]    select    replace    int(rand(4)) + 1 
+//label[contains(.,'Months')]/following::option[XXX_REPLACE_XXX]    select    replace    int(rand(11)) + 1   
+//summary[contains(text(),'Small animals')]    click
+//input[@id='SA-mice']    click
+(//button[contains(.,'Continue')])[2]    click
+//input[@id='complete-true']    select
+(//button[contains(.,'Continue')])[1]    click
+//a[contains(text(),'Experience')]    click
+//input[@id='training-has-delivered-true']    select
+//div[@name='training-delivery-experience']    text
+//div[@name='training-knowledge']    text
+//div[@name='training-facilities']    text
+//div[@name='experience-others']    text
+//div[@name='funding-previous']    text 
+(//button[contains(.,'Continue')])[1]    click
+//input[@id='complete-true']    select
+(//button[contains(.,'Continue')])[1]    click
+//a[contains(text(),'Establishments')]    click
+//input[@id='other-establishments-false']    select
+(//button[contains(.,'Continue')])[1]    click
+//input[@id='establishments-care-conditions-true']    click
+(//button[contains(.,'Continue')])[1]    click
+//input[@id='complete-true']    click
+(//button[contains(.,'Continue')])[1]    click
+//a[contains(text(),'Places other than a licensed establishment (POLEs)')]    click
+//input[@id='poles-false']    select 
+(//button[contains(.,'Continue')])[1]    click
+//input[@id='complete-true']    click
+(//button[contains(.,'Continue')])[1]    click
+//a[contains(text(),'Scientific background')]     click
+//div[@name='training-background-anticipated-demand']    text
+//div[@name='training-background-specialist-bodies']    text
+//input[@id='training-background-qualification-true']    click
+//div[@name='training-background-qualification-who-mandates']    text
+//div[@name='training-background-measure-success']    text
+//div[@name='training-background-learning-outcomes']    text
+//div[@name='training-background-annual-review']    text
+//input[@id='transfer-expiring-true']    select
+//input[contains(@id,'licence-number')]    text
+//input[contains(@id,'expiry-date-day')]    number    1    28
+//input[contains(@id,'expiry-date-month')]    number    1    12
+//input[contains(@id,'expiry-date-year')]    number    2016    2019
+(//button[contains(.,'Continue')])[1]    click
+//input[@id='complete-true']    click
+(//button[contains(.,'Continue')])[1]    click
+//a[contains(text(),'Action plan')]    click
+//h2[contains(.,'Objective 1')]/following::input[1]    text
+//button[@class='govuk-button block add-another button-secondary']    click
+//h2[contains(.,'Objective 2')]/following::input[1]    text
+//button[@class='govuk-button']    click
+//div[@name='training-objectives-use-of-animals']    text
+//div[@name='training-objectives-attendees-selected']    text
+//input[@id='training-objectives-long-term-teaching-aid-true']    select
+//div[@name='training-objectives-long-term-teaching-aid-description']    text
+//div[@name='training-objectives-non-animal-alternatives']    text
+//div[@name='training-objectives-other-resources']    text
+//div[@name='training-objectives-keep-up-to-date']    text
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'General principles')]    click
+//input[@id='training-general-principles-existing-material-true']    select
+//div[@name='training-general-principles-existing-material-how-use']    text
+//input[@id='experimental-design-sexes-true']    select
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Benefits')]    click
+//button[@class='govuk-button']    click
+//div[@name='training-benefit-future-careers']    text
+//div[@name='training-benefit-principle-learning-outcomes']    text
+//div[@name='training-benefit-learning-outcomes-important']    text
+//div[@name='training-benefit-transfer-of-knowledge']    text
+//div[@name='benefit-maximise-outputs']    text
+(//button[contains(.,'Continue')])[2]    click
+//input[@id='complete-true']    click
+(//button[contains(.,'Continue')])[1]    click
+//a[contains(text(),'Protocols')]    click
+//h2[contains(text(),'Protocol 1')]/following::input[1]    text
+//div[@class='protocol panel']//button[@class='govuk-button'][contains(text(),'Continue')]    click
+//div[contains(text(),'Protocol details')]/following::div[contains(@name,'description')]    text
+//label[contains(text(),'Severe')]    select
+//div[contains(text(),'Protocol details')]/following::div[contains(@name,'proportion')]    text
+//div[contains(text(),'Protocol details')]/following::div[contains(@name,'severity-details')]    text
+(//input[(contains(@id,'protocols')and contains(@id, 'objectives'))])[1]    select
+//input[contains(@id,'training-used-for-tissue-provision')]    select
+//input[contains(@id,'training-used-for-demonstration')]    select
+//div[contains(@name,'training-participant-pre-course-training')]    text
+//div[contains(@name,'training-responsible-for-animals')]    text
+//input[contains(@id,'training-regulated-procedures-true')]    select
+//input[contains(@id,'training-regulated-procedures-type-of-pil-ab')]    select
+//label[contains(text(),'UXB')]    select
+//div[contains(text(),'Animals used in this protocol')]    click    5000
+//label[contains(text(),'Mice')]    select    5000
+//label[contains(text(),'Adult')]    select    5000
+(//h2[contains(text(),'Will any animals coming on to this protocol be cla')]/following::label[@class='govuk-label govuk-radios__label'][contains(text(),'Yes')])[1]    select    
+//div[contains(@name,'continued-use-sourced')]    text
+//input[contains(@id,'reuse-true')]    select    5000
+//div[contains(@name,'reuse-details')]    text    3000
+//input[contains(@id,'maximum-animals')]    number    100    105
+//input[contains(@id,'maximum-times-used')]    number    110    200
+//div[contains(text(),'Genetically altered animals (GAA)')]     click
+//input[contains(@id,'gaas-false')]     select
+//div[contains(text(),'Steps')]    click
+//div[contains(@name,'steps') and contains(@name,'title')]     text
+//input[contains(@id,'steps') and contains(@id,'optional-false')]    select
+//input[contains(@id,'steps') and contains(@id, 'adverse-false')]    select
+//button[contains(text(),'Save step')]    click
+//div[contains(text(),'Fate of animals')]    click
+//input[contains(@id,'protocols') and contains(@id,'fate-killed')]    select
+//div[contains(text(),'Animal experience')]    click
+//div[contains(@name,'protocols') and contains(@name,'experience-summary')]    text
+//div[contains(@name,'protocols') and contains(@name,'experience-endpoints')]    text
+//div[contains(text(),'Experimental design')]    click
+//div[contains(@name,'protocols') and contains(@name, 'outputs')]    text
+//input[contains(@id,'protocols') and contains(@id, 'quantitative-data-false')]    select
+//div[contains(text(),'Protocol justification')]    click
+//div[contains(@name,'protocols') and contains(@name, 'most-appropriate')]    text
+//div[contains(@name, 'protocols') and contains(@name, 'most-refined')]    text
+(//label[contains(text(),'For each model and')]/following::div[contains(@name,'protocols') and contains(@name, 'scientific-endpoints')])[1]    text
+//div[contains(@name,'protocols') and contains(@name, 'scientific-suffering')]    text
+//div[contains(@name,'protocols') and contains(@name, 'scientific-endpoints-justification')]    text
+//input[contains(@id,'protocols') and contains(@id, 'justification-substances-false')]    select
+//input[@id='complete-true']    select
+//div[@class='panel']//button[@class='govuk-button'][contains(text(),'Continue')]    click
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Project harms')]    click
+//button[@class='govuk-button']    click
+//div[@name='project-harms-animals']    text
+//div[@name='project-harms-summary']    text
+//div[@name='project-harms-effects']    text
+//div[@name='project-harms-severity']    text
+(//button[contains(.,'Continue')])[2]    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Fate of animals')]    click
+//button[@class='govuk-button']    click
+//input[@id='fate-of-animals-killed']    select
+(//button[contains(.,'Continue')])[2]    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Purpose bred animals')]    click
+//input[@id='purpose-bred-false']    select
+//div[@name='purpose-bred-sourced']    text
+//div[@name='purpose-bred-justification']    text
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Endangered animals')]    click
+//input[@id='endangered-animals-false']    select
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Animals taken from the wild')]    click
+//input[@id='wild-animals-false']    select
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Feral animals')]    click
+//input[@id='feral-animals-false']    select
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Neuromuscular blocking agents (NMBAs)')]    click
+//input[@id='nmbas-used-false']    select
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Re-using animals')]    click
+//div[@name='reusing-why']    text
+//div[@name='reusing-limitations']    text
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Commercial slaughter')]    click
+//input[@id='commercial-slaughter-false']    select
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Animals containing human material')]    click
+//input[@id='animals-containing-human-material-false']    select
+//button[@class='govuk-button']    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Replacement')]    click
+//button[@class='govuk-button']    click
+//div[@name='replacement-why']    text
+//div[@name='training-replacement-observation']    text
+(//button[contains(.,'Continue')])[2]    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Reduction')]    click
+//button[@class='govuk-button']    click
+//input[@id='reduction-quantities-mice']    text
+//div[@name='reduction-estimation']    text
+//div[@name='training-reduction-techniques']    text
+//div[@name='training-reduction-animal-numbers']    text
+//div[@name='training-reduction-other-measures']    text
+(//button[contains(.,'Continue')])[2]    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Refinement')]    click
+//button[@class='govuk-button']    click
+//div[@name='refinement-models']    text
+//div[@name='refinement-less-sentient']    text
+//div[@name='refinement-3rs-advances']    text
+//div[@name='refinement-explaination']    text
+//div[@name='refinement-published-guidance']    text
+(//button[contains(.,'Continue')])[2]    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click
+//a[contains(text(),'Review')]    click
+//input[@id='complete-true']    select
+//button[@class='govuk-button']    click    5000
+//button[@class='govuk-button']    click    10000
+//input[@id='awerb-yes']    select
+//textarea[@id='awerb-review-date']    number    100000    4000000
+//textarea[@id='comment']    text
+//button[@class='govuk-button']    click    10000
