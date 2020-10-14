@@ -10,7 +10,8 @@ https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true    go
 //a[contains(text(),'Introductory details')]    click    1000
 //button[@class='govuk-button']    click
 //input[@id='title']    text 
-//div[@name='project-aim']    text
+## //div[@name='project-aim']    text
+//div[@id='project-aim']/descendant::*[@aria-label="Insert image"][1]    click
 //div[@name='project-importance']    text
 //input[@id='training-licence-false']    select
 //input[@id='permissible-purpose-basic-research']    select
@@ -27,7 +28,7 @@ https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true    go
 //div[@name='experience-achievements']    text 
 //div[@name='experience-knowledge']    text
 //div[@name='experience-animals']    text
-//div[@name='experience-experimental-design']    text
+//div[@name='experience-experimental-design']    image    
 //div[@name='experience-others']    text
 //div[@name='funding-previous']    text 
 ##//div[@name='other-people']    text
