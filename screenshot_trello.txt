@@ -7,3 +7,5 @@ https://trello.com/login    go    5000
 5000    pause
 https://trello.com/b/KpVVpCty/post-release-roadmap    go    5000
 ./graphs/url.png    screen
+https://trello.com/b/KpVVpCty.json    go    5000
+./graphs/roadmap.json    file
