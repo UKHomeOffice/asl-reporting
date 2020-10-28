@@ -51,7 +51,7 @@ https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true    go
 //input[@id='complete-true']    click
 (//button[contains(.,'Continue')])[1]    click
 //a[contains(text(),'Scientific background')]     click
-//div[@name='training-background-anticipated-demand']    text
+//div[@name='training-background-anticipated-demand']    text    100
 //div[@name='training-background-specialist-bodies']    text
 //input[@id='training-background-qualification-false']    select
 //div[@name='training-background-measure-success']    text
