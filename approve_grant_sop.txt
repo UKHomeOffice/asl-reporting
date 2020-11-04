@@ -1,0 +1,24 @@
+https://internal-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true    go
+//input[@id='username']    text    inspector  
+//input[@id='password']    text    var    $yaml->[0]->{Values}->{TPW}
+//input[@id='kc-login']    click
+https://internal-ui.preprod.asl.homeoffice.gov.uk/?progress=outstanding&sort%5Bcolumn%5D=updatedAt&sort%5Bascending%5D=false&page=1    go
+//a[contains(.,"New approved area")]    click
+//input[@id='status-inspector-recommended']    select
+//button[@class="govuk-button"]    click
+//textarea[@id='comment']    text    20
+//button[@class="govuk-button"]    click
+1000    pause
+//a[contains(text(),'Sign Out')]
+//input[@id='username']    text    licensing 
+//input[@id='password']    text    var    $yaml->[0]->{Values}->{TPW}
+//input[@id='kc-login']    click
+https://internal-ui.preprod.asl.homeoffice.gov.uk/?progress=outstanding&sort%5Bcolumn%5D=updatedAt&sort%5Bascending%5D=false&page=1    go
+//a[contains(.,"New approved area")]    click
+//input[@id='status-resolved']    select
+//button[@class="govuk-button"]    click
+//textarea[@id='comment']    text 20
+//button[@class="govuk-button"]    click
+10000    pause
+
+

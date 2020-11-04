@@ -1,0 +1,33 @@
+https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true    go
+//input[@id='username']    text    var    $yaml->[0]->{Values}->{TUN}  
+//input[@id='password']    text    var    $yaml->[0]->{Values}->{TPW}
+//input[@id='kc-login']    click
+//a[contains(.,'Planing')]    click
+//a[contains(.,'Approved')]    click
+//a[contains(.,'Create')]    click
+//input[@id='site']    text    var    my $string=`shuf tube.txt | tail -n 1`; my @items= split(/\s\s\s\s/, $string); $_=$items[2];
+//input[@id='area']    text    var    my $string=`shuf tube.txt | tail -n 1`; my @items= split(/\s\s\s\s/, $string); $_=$items[1];
+//input[@id='name']    text    var    my $string=`shuf tube.txt | tail -n 1`; my @items= split(/\s\s\s\s/, $string); $_=$items[0];
+//input[@id='suitability-sa']    select    rand    2
+//input[@id='suitability-la']    select    rand    3
+//input[@id='suitability-aq']    select    rand    2
+//input[@id='suitability-av']    select    rand    2
+//input[@id='suitability-dog']    select    rand    3
+//input[@id='suitability-cat']    select    rand    2
+//input[@id='suitability-equ']    select    rand    2
+//input[@id='suitability-nhp']    select    rand    2
+//input[@id='holding-sth']    select    rand    2
+//input[@id='holding-lth']    select    rand    2
+//input[@id='holding-noh']    select    rand    3
+//input[@id='holding-sep']    select    rand    3
+//input[@id='holding-nsep']    select    rand    3
+//span[contains(text(),'Named Animal Care and Welfare Officers (NACWOs)')]/following::option[XXX_REPLACE_XXX]    select    replace    int(rand(2))+2
+//span[contains(text(),'Named Veterinary Surgeon (NVS) or Suitably Qualifi')]/following::option[XXX_REPLACE_XXX]    select    replace    int(rand(2))+2
+//a[contains(text(),'Add')]    click
+//textarea[@id='restrictions']    text 20
+//button[contains(text(),'Done')]    click
+//textarea[@id='comments']    text    100
+//button[@class='govuk-button']    click
+//input[@id='declaration-true']    click
+//button[@class='govuk-button']    click
+1000    pause

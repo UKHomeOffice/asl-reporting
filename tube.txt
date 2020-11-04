@@ -1,0 +1,281 @@
+Station    Local authority
+    Zone(s)[†]
+
+Acton Town    Ealing    3
+Aldgate    City of London    1
+Aldgate East    Tower Hamlets    1
+Alperton    Brent    4
+Amersham    Buckinghamshire    9
+Angel    Islington    1
+Archway    Islington    2 & 3
+Arnos Grove    Enfield    4
+Arsenal    Islington    2
+Baker Street    City of Westminster    1
+Balham    Wandsworth    3
+Bank    City of London    1
+Barbican    City of London    1
+Barking    Barking and Dagenham    4
+Barkingside    Redbridge    4
+Barons Court    Hammersmith and Fulham    2
+Bayswater    City of Westminster    1
+Becontree    Barking and Dagenham    5
+Belsize Park    Camden    2
+Bermondsey    Southwark    2
+Bethnal Green    Tower Hamlets    2
+Blackfriars    City of London    1
+Blackhorse Road    Waltham Forest    3
+Bond Street    City of Westminster    1
+Borough    Southwark    1
+Boston Manor    Ealing
+Hounslow    4
+Bounds Green    Haringey    3 & 4
+Bow Road    Tower Hamlets    2
+Brent Cross    Barnet    3
+Brixton    Lambeth    2
+Bromley-by-Bow    Tower Hamlets    2 & 3
+Buckhurst Hill    Epping Forest    5
+Burnt Oak    Barnet    4
+Caledonian Road    Islington    2
+Camden Town    Camden    2
+Canada Water    Southwark    2
+Canary Wharf    Tower Hamlets    2
+Canning Town    Newham    2 & 3
+Cannon Street    City of London    1
+Canons Park    Harrow    5
+Chalfont & Latimer    Buckinghamshire    8
+Chalk Farm    Camden    2
+Chancery Lane    City of London
+Camden    1
+Charing Cross    City of Westminster    1
+Chesham    Buckinghamshire    9
+Chigwell    Epping Forest    4
+Chiswick Park    Ealing    3
+Chorleywood    Three Rivers    7
+Clapham Common    Lambeth    2
+Clapham North    Lambeth    2
+Clapham South    Wandsworth    2 & 3
+Cockfosters    Enfield    5
+Colindale    Barnet    4
+Colliers Wood    Merton    3
+Covent Garden    City of Westminster    1
+Croxley    Three Rivers    7
+Dagenham East    Barking and Dagenham    5
+Dagenham Heathway    Barking and Dagenham    5
+Debden    Epping Forest    6
+Dollis Hill    Brent    3
+Ealing Broadway    Ealing    3
+Ealing Common    Ealing    3
+Earl's Court    Kensington and Chelsea    1 & 2
+East Acton    Hammersmith and Fulham    2
+East Finchley    Barnet    3
+East Ham    Newham    3 & 4
+East Putney    Wandsworth    2 & 3
+Eastcote    Hillingdon    5
+Edgware    Barnet    5
+Edgware Road    City of Westminster    1
+Edgware Road    City of Westminster    1
+Elephant & Castle    Southwark    1 & 2
+Elm Park    Havering    6
+Embankment    City of Westminster    1
+Epping    Epping Forest    6
+Euston    Camden    1
+Euston Square    Camden    1
+Fairlop    Redbridge    4
+Farringdon    Islington    1
+Finchley Central    Barnet    4
+Finchley Road    Camden    2
+Finsbury Park    Islington    2
+Fulham Broadway    Hammersmith and Fulham    2
+Gants Hill    Redbridge    4
+Gloucester Road    Kensington and Chelsea    1
+Golders Green    Barnet    3
+Goldhawk Road    Hammersmith and Fulham    2
+Goodge Street    Camden    1
+Grange Hill    Redbridge    4
+Great Portland Street    City of Westminster    1
+Greenford    Ealing    4
+Green Park    City of Westminster    1
+Gunnersbury    Hounslow    3
+Hainault    Redbridge    4
+Hammersmith    Hammersmith and Fulham    2
+Hammersmith    Hammersmith and Fulham    2
+Hampstead    Camden    2 & 3
+Hanger Lane    Ealing    3
+Harlesden    Brent    3
+Harrow & Wealdstone    Harrow    5
+Harrow-on-the-Hill    Harrow    5
+Hatton Cross    Hillingdon    5 & 6
+Heathrow Terminals 2 & 3    Hillingdon    6
+Heathrow Terminal 4    Hillingdon    6
+Heathrow Terminal 5    Hillingdon    6
+Hendon Central    Barnet    3 & 4
+High Barnet    Barnet    5
+Highbury & Islington    Islington    2
+Highgate    Haringey    3
+High Street Kensington    Kensington and Chelsea    1
+Hillingdon    Hillingdon    6
+Holborn    Camden    1
+Holland Park    Kensington and Chelsea    2
+Holloway Road    Islington    2
+Hornchurch    Havering    6
+Hounslow Central    Hounslow    4
+Hounslow East    Hounslow    4
+Hounslow West    Hounslow    5
+Hyde Park Corner    City of Westminster    1
+Ickenham    Hillingdon    6
+Kennington    Southwark    2
+Kensal Green    Brent    2
+Kensington (Olympia)    Kensington and Chelsea    2
+Kentish Town    Camden    2
+Kenton    Brent
+Harrow    4
+Kew Gardens    Richmond    3 & 4
+Kilburn    Brent    2
+Kilburn Park    Brent    2
+Kingsbury    Brent    4
+King's Cross St Pancras    Camden    1
+Knightsbridge    Kensington and Chelsea    1
+Ladbroke Grove    Kensington and Chelsea    2
+Lambeth North    Lambeth    1
+Lancaster Gate    City of Westminster    1
+Latimer Road    Kensington and Chelsea    2
+Leicester Square    City of Westminster    1
+Leyton    Waltham Forest    3
+Leytonstone    Waltham Forest    3 & 4
+Liverpool Street    City of London    1
+London Bridge    Southwark    1
+Loughton    Epping Forest    6
+Maida Vale    City of Westminster    2
+Manor House    Hackney
+Haringey    2 & 3
+Mansion House    City of London    1
+Marble Arch    City of Westminster    1
+Marylebone    City of Westminster    1
+Mile End    Tower Hamlets    2
+Mill Hill East    Barnet    4
+Monument    City of London    1
+Moorgate    City of London    1
+Moor Park    Three Rivers    6 & 7
+Morden    Merton    4
+Mornington Crescent    Camden    2
+Neasden    Brent    3
+Newbury Park    Redbridge    4
+North Acton    Ealing    2 & 3
+North Ealing    Ealing    3
+North Greenwich    Greenwich    2 & 3
+North Harrow    Harrow    5
+North Wembley    Brent    4
+Northfields    Ealing    3
+Northolt    Ealing    5
+Northwick Park    Brent    4
+Northwood    Hillingdon    6
+Northwood Hills    Hillingdon    6
+Notting Hill Gate    Kensington and Chelsea    1 & 2
+Oakwood    Enfield    5
+Old Street    Islington
+Hackney    1
+Osterley    Hounslow    4
+Oval    Lambeth    2
+Oxford Circus    City of Westminster    1
+Paddington    City of Westminster    1
+Paddington    City of Westminster    1
+Park Royal    Ealing    3
+Parsons Green    Hammersmith and Fulham    2
+Perivale    Ealing    4
+Piccadilly Circus    City of Westminster    1
+Pimlico    City of Westminster    1
+Pinner    Harrow    5
+Plaistow    Newham    3
+Preston Road    Brent    4
+Putney Bridge    Hammersmith and Fulham    2
+Queen's Park    Brent    2
+Queensbury    Brent    4
+Queensway    City of Westminster    1
+Ravenscourt Park    Hammersmith and Fulham    2
+Rayners Lane    Harrow    5
+Redbridge    Redbridge    4
+Regent's Park    City of Westminster    1
+Richmond    Richmond    4
+Rickmansworth    Three Rivers    7
+Roding Valley    Epping Forest
+Redbridge    4
+Royal Oak    City of Westminster    2
+Ruislip    Hillingdon    6
+Ruislip Gardens    Hillingdon    5
+Ruislip Manor    Hillingdon    6
+Russell Square    Camden    1
+St. James's Park    City of Westminster    1
+St. John's Wood    City of Westminster    2
+St. Paul's    City of London    1
+Seven Sisters    Haringey    3
+Shepherd's Bush    Hammersmith and Fulham    2
+Shepherd's Bush Market    Hammersmith and Fulham    2
+Sloane Square    Kensington and Chelsea    1
+Snaresbrook    Redbridge    4
+South Ealing    Ealing    3
+South Harrow    Harrow    5
+South Kensington    Kensington and Chelsea    1
+South Kenton    Brent    4
+South Ruislip    Hillingdon    5
+South Wimbledon    Merton    3 & 4
+South Woodford    Redbridge    4
+Southfields    Wandsworth    3
+Southgate    Enfield    4
+Southwark    Southwark    1
+Stamford Brook    Hammersmith and Fulham    2
+Stanmore    Harrow    5
+Stepney Green    Tower Hamlets    2
+Stockwell    Lambeth    2
+Stonebridge Park    Brent    3
+Stratford    Newham    2 & 3
+Sudbury Hill    Ealing
+Harrow    4
+Sudbury Town    Brent
+Ealing    4
+Swiss Cottage    Camden    2
+Temple    City of Westminster    1
+Theydon Bois    Epping Forest    6
+Tooting Bec    Wandsworth    3
+Tooting Broadway    Wandsworth    3
+Tottenham Court Road    City of Westminster    1
+Tottenham Hale    Haringey    3
+Totteridge & Whetstone    Barnet    4
+Tower Hill    Tower Hamlets    1
+Tufnell Park    Islington    2
+Turnham Green    Hounslow    2 & 3
+Turnpike Lane    Haringey    3
+Upminster    Havering    6
+Upminster Bridge    Havering    6
+Upney    Barking and Dagenham    4
+Upton Park    Newham    3
+Uxbridge    Hillingdon    6
+Vauxhall    Lambeth    1 & 2
+Victoria    City of Westminster    1
+Walthamstow Central    Waltham Forest    3
+Wanstead    Redbridge    4
+Warren Street    Camden    1
+Warwick Avenue    City of Westminster    2
+Waterloo    Lambeth    1
+Watford    Watford    7
+Wembley Central    Brent    4
+Wembley Park    Brent    4
+West Acton    Ealing    3
+West Brompton    Kensington and Chelsea    2
+West Finchley    Barnet    4
+West Ham    Newham    2 & 3
+West Hampstead    Camden    2
+West Harrow    Harrow    5
+West Kensington    Hammersmith and Fulham    2
+West Ruislip    Hillingdon    6
+Westbourne Park    City of Westminster    2
+Westminster    City of Westminster    1
+White City    Hammersmith and Fulham    2
+Whitechapel    Tower Hamlets    2
+Willesden Green    Brent    2 & 3
+Willesden Junction    Brent    2 & 3
+Wimbledon    Merton    3
+Wimbledon Park    Merton    3
+Wood Green    Haringey    3
+Wood Lane    Hammersmith and Fulham    2
+Woodford    Redbridge    4
+Woodside Park    Barnet    4
