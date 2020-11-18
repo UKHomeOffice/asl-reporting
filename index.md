@@ -1,6 +1,8 @@
 # ASL Delivery Reports
 
-## [Report 11th November 2020 - Sprint 71](report11112020.md)
+## [Report 17th November 2020 - Sprint 71](report11112020.md)
+
+[Report 11th November 2020 - Sprint 71](report11112020.md)
 
 [Report 4th November 2020 - Sprint 70](report04112020.md)
 
