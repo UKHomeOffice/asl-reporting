@@ -1,6 +1,7 @@
 # Roadmap visualisation
 ![Roadmap visualisation](graphs/roadmapVisualisation02122020.png)
 
+
 ## Note about this visualisation
 This visualisation attempts to capture a rough idea of overall progress through the work in the roadmap. 
 
