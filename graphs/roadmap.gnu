@@ -9,5 +9,5 @@ set style fill solid border -1
 set boxwidth 0.9
 set key autotitle columnheader
 set xtics border in scale 0,0 nomirror rotate by -45  autojustify
-set title '5th May 2021' 
+set title '19th May 2021' 
 plot filename using 2:xtic(1) ti col , '' using 3 ti col, '' using 4 ti col
