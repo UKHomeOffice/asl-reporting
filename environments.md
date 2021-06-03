@@ -1,17 +1,17 @@
 # ASL Environments
 
-## Prod - currently needs vpn
+### Internal site - requires a tunnel VPN
+[https://internal.aspel.homeoffice.gov.uk/](https://internal.aspel.homeoffice.gov.uk/)
+
 ### Public
-https://public-ui.prod.asl.homeoffice.gov.uk/
-### Private
-http://internal-ui.preprod.asl.homeoffice.gov.uk/
+[https://external.aspel.homeoffice.gov.uk/](https://external.aspel.homeoffice.gov.uk/)
 
 ## Pre Prod
 ### Public
 [Public PreProd https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true](https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true)
 
 ### Internal (needs a VPN unless you're in London Bridge office) SEE BOTTOM OF PAGE FOR VPN
-[Internal PreProd https://internal-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true](https://internal-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true)
+[https://internal.aspel.homeoffice.gov.uk/](https://internal.aspel.homeoffice.gov.uk/)
 
 ## Dev
 
