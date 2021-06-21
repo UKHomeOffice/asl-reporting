@@ -12,8 +12,9 @@
 ### Public
 [Public PreProd https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true](https://public-ui.preprod.asl.homeoffice.gov.uk/?widescreen=true)
 
-### Internal (needs a VPN unless you're in London Bridge office) SEE BOTTOM OF PAGE FOR VPN
-[https://internal.aspel.homeoffice.gov.uk/](https://internal.aspel.homeoffice.gov.uk/)
+### Internal
+[Internal Dev https://internal-ui.dev.asl.homeoffice.gov.uk/?widescreen=true](https://internal-ui.dev.asl.homeoffice.gov.uk/?widescreen=true)
+
 
 ## Dev
 
