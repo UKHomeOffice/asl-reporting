@@ -2,7 +2,7 @@
 
 ## Live
 
-### Internal site - requires a tunnel VPN
+### Internal site - requires a tunnel VPN - see below
 [https://internal.aspel.homeoffice.gov.uk/](https://internal.aspel.homeoffice.gov.uk/)
 
 ### Public
