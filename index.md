@@ -1,6 +1,6 @@
 # ASL Delivery Reports
 
-## [Report Wednesday 30 June 2021 - Sprint 88](report07072021.md)
+## [Report Wednesday 7th July 2021 - Sprint 88](report07072021.md)
 
 [Report Wednesday 30 June 2021 - Sprint 87](report30062021.md)
 
