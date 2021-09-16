@@ -24,14 +24,6 @@
 ### Internal
 [Internal Dev https://internal-ui.dev.asl.homeoffice.gov.uk/?widescreen=true](https://internal-ui.dev.asl.homeoffice.gov.uk/?widescreen=true)
 
-## DT (Drafting Tool)
-
-### Prod - ish
-[https://ppl-prototype.herokuapp.com/](https://ppl-prototype.herokuapp.com/)
-
-### Dev
-[https://ppl-staging.herokuapp.com](https://ppl-prototype.herokuapp.com/)
-
 ### workarounds
 [Authorisations and Conditions](AuthsAndConditions.md)
 
