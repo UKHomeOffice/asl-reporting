@@ -32,6 +32,8 @@
 ### Dev
 [https://ppl-staging.herokuapp.com](https://ppl-prototype.herokuapp.com/)
 
+### workarounds
+[Authorisations and Conditions](AuthsAndConditions.md)
 
 ### How to I run a vpn?
 
