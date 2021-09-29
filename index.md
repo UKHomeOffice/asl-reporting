@@ -1,8 +1,10 @@
 # ASL Delivery Reports
 
 ## [Report Wednesday 29 September 2021 - Sprint 94](report29092021.md)
- [Report Wednesday 22 September 2021 - Sprint 93](report22092021.md)
- [Report Wednesday 15 September 2021 - Sprint 93](report15092021.md)
+
+[Report Wednesday 22 September 2021 - Sprint 93](report22092021.md)
+
+[Report Wednesday 15 September 2021 - Sprint 93](report15092021.md)
 
 [Report Wednesday 08 September 2021 - Sprint 92](report08092021.md)
 
