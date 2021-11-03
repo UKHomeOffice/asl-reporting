@@ -1,5 +1,5 @@
-//h3[contains(text(),'Farm Pharma')]    click    5000
-//a[contains(.,'Go to Farm')]    click    3000
+//h3[contains(text(),'Croydon')]    click    5000
+//a[contains(.,'Go to University of Croydon')]    click    3000
 //a//span[contains(text(),'Projects')]    click    1000
 //div[@class='control-panel projects-actions']//button[@class='govuk-button']    click    1000
 //a[contains(text(),'Introductory details')]    click    1000
