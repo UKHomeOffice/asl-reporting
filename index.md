@@ -1,7 +1,8 @@
 # ASL Delivery Reports
 
 ## [Report Wednesday 02 February 2022 - Sprint 102](report02022022.md)
- [Report Wednesday 26 January 2022 - Sprint 101](report26012022.md)
+
+[Report Wednesday 26 January 2022 - Sprint 101](report26012022.md)
 
 [Report Wednesday 19 January 2022 - Sprint 101](report19012022.md)
 
