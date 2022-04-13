@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/UKHomeOffice/asl-reporting#readme",
   "dependencies": {
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "puppeteer": "^1.13.0"
   }
 }
