@@ -1,6 +1,7 @@
 # ASL Delivery Reports
 
-## [Report Wednesday 20 July 2022 - Sprint 114](report20072022.md)
+## [Report Wednesday 27 July 2022 - Sprint 114](report27072022.md)
+ [Report Wednesday 20 July 2022 - Sprint 114](report20072022.md)
 
 [Report Wednesday 13 July 2022 - Sprint 113](report13072022.md)
 
