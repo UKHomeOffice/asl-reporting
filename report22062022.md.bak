@@ -1,0 +1,43 @@
+# Summary as of Wednesday 22 June 2022 
+
+# Sprint 112
+
+![https://evas-naturfotografie.de, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons](graphs/squirrel.jpg)
+
+## Just Done
+* prepare for DDaT show and tell - Weds 22 June - research and design 
+* documentation - How does it work, what does it do - handover activities
+
+## About to Do/Doing
+* ASRU to be able to suspend PEL, PILs and PPLs - design
+* addition of reminders for retrospective reviews - working software
+* adding reminders to time-based conditions - working software
+* prompt during PIL application "Have you checked that this person doesn't currently, or hasn't previously had a PIL?" - working software 
+
+We planned the following issues in this sprint 
+[Sprint 112](graphs/sprint22062022.png)
+
+## Support tickets and known issues
+[Link to Support Board](https://collaboration.homeoffice.gov.uk/jira/secure/RapidBoard.jspa?rapidView=1717&selectedIssue=ASSB-253)
+
+[Support board - cached](graphs/supportBoard22062022.png)
+
+## Click here for metrics / progress against plan
+[Sprint 112](graphs/progress22062022.png)
+
+[Post Release Roadmap](graphs/roadmap22062022.png)
+
+## We set the following areas of focus: 
+1. Release time based condition reminders - working software 
+2. Initial designs for suspending licences - design
+3. Clarify team transition resourcing - product managment
+
+## The areas of focus for the previous sprint were:
+1. Time conditions: release candidate - working software
+2. Prepare for enablers show and tell - design
+
+## Google Analytics for this report
+[Google Analytics](graphs/GA22062022.png)
+
+
+
