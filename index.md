@@ -1,6 +1,8 @@
 # ASL Delivery Reports
 
-## [Report Wednesday 02 November 2022 - Sprint 121](report02112022.md)
+## [Report Wednesday 09 November 2022 - Sprint 122](report09112022.md)
+
+[Report Wednesday 02 November 2022 - Sprint 121](report02112022.md)
 
 [Report Wednesday 26 October 2022 - Sprint 121](report26102022.md)
 
