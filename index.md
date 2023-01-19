@@ -2,27 +2,29 @@
 
 ## 2023 Delivery Reports
 
-**[Report Wednesday 11 January 2023 - Sprint 124 (Emu)](report11012023.md)**
+**[Report Wednesday 18 January 2023 - Sprint 125 (Flamingo)](report18012023.md)**
+
+[Report Wednesday 11 January 2023 - Sprint 124 (Emu)](report11012023.md)
 
 ## 2022 Delivery Reports
 
-[Report Wednesday 14 December 2022 - Sprint 123 (extended)](report14122022.md)
+[Report Wednesday 14 December 2022 - Sprint 123 (Dugong extended)](report14122022.md)
 
-[Report Wednesday 07 December 2022 - Sprint 123 (extended)](report07122022.md)
+[Report Wednesday 07 December 2022 - Sprint 123 (Dugong extended)](report07122022.md)
 
-[Report Wednesday 30 November 2022 - Sprint 123](report30112022.md)
+[Report Wednesday 30 November 2022 - Sprint 123 (Dugong)](report30112022.md)
 
-[Report Wednesday 23 November 2022 - Sprint 123](report23112022.md)
+[Report Wednesday 23 November 2022 - Sprint 123 (Dugong)](report23112022.md)
 
-[Report Wednesday 16 November 2022 - Sprint 122](report16112022.md)
+[Report Wednesday 16 November 2022 - Sprint 122 (Catfish)](report16112022.md)
 
-[Report Wednesday 09 November 2022 - Sprint 122](report09112022.md)
+[Report Wednesday 09 November 2022 - Sprint 122 (Catfish)](report09112022.md)
 
-[Report Wednesday 02 November 2022 - Sprint 121](report02112022.md)
+[Report Wednesday 02 November 2022 - Sprint 121 (Bactrian camel)](report02112022.md)
 
-[Report Wednesday 26 October 2022 - Sprint 121](report26102022.md)
+[Report Wednesday 26 October 2022 - Sprint 121 (Bactrian camel)](report26102022.md)
 
-[Report Wednesday 19 October 2022 - Sprint 120](report19102022.md)
+[Report Wednesday 19 October 2022 - Sprint 120 (Anaconda)](report19102022.md)
 
 [Report Wednesday 05 October 2022 - Sprint 119](report05102022.md)
 
