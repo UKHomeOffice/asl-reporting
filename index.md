@@ -2,7 +2,9 @@
 
 ## 2023 Delivery Reports
 
-**[Report Wednesday 18 January 2023 - Sprint 125 (Flamingo)](report18012023.md)**
+**[Report Wednesday 02 February 2023 - Sprint 126 (Greyhound)](report01022023.md)**
+
+[Report Wednesday 18 January 2023 - Sprint 125 (Flamingo)](report18012023.md)
 
 [Report Wednesday 11 January 2023 - Sprint 124 (Emu)](report11012023.md)
 
