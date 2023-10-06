@@ -2,7 +2,9 @@
 
 ## 2023 Delivery Reports
 
-**[Report Wednesday 06th September - Sprint 135(Platypus)](report06092023.md)**
+**[Report Wednesday 05th October- sprint 136(Quokka)](report04102023.md)**
+
+[Report Wednesday 06th September - Sprint 135(Platypus)](report06092023.md)
 
 [Report Wednesday 09th August- Sprint 134(Ocelot)](report09082023.md)
 
