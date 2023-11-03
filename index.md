@@ -1,17 +1,17 @@
 # ASPeL Delivery Reports
 
 ## 2023 Delivery Reports
-**[Report Wednesday 01st November- Sprint 137(Roadrunner)](report01112023.md)**
+**[Report Wednesday 01st November 2023- Sprint 137(Roadrunner)](report01112023.md)**
 
-[Report Wednesday 05th October- sprint 136(Quokka)](report04102023.md)
+[Report Wednesday 05th October 2023- sprint 136(Quokka)](report04102023.md)
 
-[Report Wednesday 06th September - Sprint 135(Platypus)](report06092023.md)
+[Report Wednesday 06th September 2023 - Sprint 135(Platypus)](report06092023.md)
 
-[Report Wednesday 09th August- Sprint 134(Ocelot)](report09082023.md)
+[Report Wednesday 09th August 2023- Sprint 134(Ocelot)](report09082023.md)
 
-[Report Wednesday 12th July -Sprint 133(Numbat)](report12072023.md)
+[Report Wednesday 12th July 2023 -Sprint 133(Numbat)](report12072023.md)
 
-[Report Wednesday 28th June - Sprint 132 (Manatee)](report28062023.md)
+[Report Wednesday 28th June 2023- Sprint 132 (Manatee)](report28062023.md)
 
 [Report Wednesday 14th June - Sprint 131 (Llama)](report14062023.md)
 
