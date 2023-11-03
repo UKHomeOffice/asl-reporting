@@ -13,7 +13,7 @@
 
 [Report Wednesday 28th June 2023- Sprint 132 (Manatee)](report28062023.md)
 
-[Report Wednesday 14th June - Sprint 131 (Llama)](report14062023.md)
+[Report Wednesday 14th June 2023 - Sprint 131 (Llama)](report14062023.md)
 
 [Report Wednesday 17 May 2023 - Sprint 130 (Koala)](report17052023.md)
 
