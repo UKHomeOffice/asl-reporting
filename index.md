@@ -2,7 +2,7 @@
 
 ## 2024 Delivery Reports
 
-**[Report Wednesday 08th May 2024 Sprint 143(Xerusy)](report08052024)**
+**[Report Wednesday 08th May 2024 Sprint 143(Xerus)](report08052024)**
 [Report Wednesday 10th April 2024 Sprint 142(Wallaby)](10th-april-2024)
 
 [Report Wednesday 13th March 2024 Sprint 141(Vicuna)](report13032024.md)
