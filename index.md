@@ -2,7 +2,9 @@
 
 ## 2024 Delivery Reports
 
-**[Report Wednesday 25th September 2024 Sprint 148 (Chickadee)](report25092024.md)**
+**[Report Wednesday 23rd October 2024 Sprint 149 (Douc)](report23102024.md)**
+
+[Report Wednesday 25th September 2024 Sprint 148 (Chickadee)](report25092024.md)
 
 [Report Wednesday 28th August 2024 Sprint 147 (red-lipped BatFish)](report28082024.md)
 
