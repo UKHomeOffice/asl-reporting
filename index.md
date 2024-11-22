@@ -2,7 +2,9 @@
 
 ## 2024 Delivery Reports
 
-**[Report Wednesday 23rd October 2024 Sprint 149 (Douc)](report23102024.md)**
+**[Report Wednesday 20th November 2024 Sprint 150 Echidna](report20112024.md)**
+
+[Report Wednesday 23rd October 2024 Sprint 149 (Douc)](report23102024.md)*
 
 [Report Wednesday 25th September 2024 Sprint 148 (Chickadee)](report25092024.md)
 
