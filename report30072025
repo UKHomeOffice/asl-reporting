@@ -1,0 +1,114 @@
+# Summary as of Wednesday 02nd July 2025
+
+
+
+## Future research and recruitment 
+
+Thank you for your continued involvement in user research for ASPeL– your participation is integral to understanding the user experience. The research on ASPeL features continues. Please contact our user researcher David.utley@digital.homeoffice.gov.uk to participate. Thank you.  
+ 
+# Sprint: 158(Marmot)
+
+
+
+
+
+
+
+
+
+
+
+
+Attribution:![Pierre5018, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons](Marmotte_(Montréal).jpg)
+
+
+
+
+
+
+
+
+
+# Completed this Sprint
+We completed the following:
+1) Further improvements to Named persons' role nominations, which have been added behind the feature flag
+2) We fixed some of the change highlighting issues such as; Coloured Badges for - changed, amended, complete, incomplete, in progress, scenarios
+3) We also fixed Change Hilighting issues in the Protocols section, for badges to appear correctly when protocols are new, removed, moved up or moved down
+4) A SPIKE: To understand the data in actioned-tasks-raw download
+5) Further change highlighting fixes implemented for; New step added and removed before submission
+6) And new protocols added and removed before submission
+7) We finalised and agreed a more efficient process of working on the support board
+8) We completed the user research on Standard protocols
+9) And shared the standard protocols prototype with ASRU for feedback
+    
+
+
+
+
+
+
+
+# Bugs Done or Closed this Sprint
+![bugs fixed 02072025](Bugs020725.JPG)
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# New Sprint 159 (Nudibranch-aka sea slug)
+
+
+
+
+
+
+
+
+
+
+
+attribution:![Minette Layne from Seattle, Washington, USA, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons](128px_Nudribranch.jpg)
+
+
+
+
+
+
+
+Interesting fact about Nudibranchia - aka sea slugs: They come in a great variety of colours, these colours represent their toxicity.
+
+# Planned for this Sprint 159(Nudibranch)
+WE will;
+
+1) Continue to improve the process of nominating people for named roles in establishments, we are on course to complete this work this Sprint.
+2) Complete the prioritised, outstanding RoPs requirements. 
+4) Implement research feedback and inspector requirements into the finalised User Interface for the standard protocols design
+5) Run workshops with key ASRU people to finalise standard protocols content.
+6) Complete the fix for Change Highlighting where comments are currently not highlighting correctly
+7) Complete the upgrade of REACT to the latest version on ASPeL for improved performance.
+ 
+  
+   
+   
+
+   
+
+## Things to bear in mind
+Kindly let us know how we are doing in keeping you informed. We appreciate your feedback on the content of this report. 
+
+
+# Work in progress
+1) All outstanding change highlighting errors within ASPeL such as 'changed flag displayed when no change has been made', or flag not showing when comments have been added and all outstanding ROP related issues recently logged with us are continuing to be worked on as a high priority. We will update you as soon as resolved. 
