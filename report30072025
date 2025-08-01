@@ -1,4 +1,4 @@
-# Summary as of Wednesday 02nd July 2025
+# Summary as of Wednesday 30th July 2025
 
 
 
@@ -6,69 +6,8 @@
 
 Thank you for your continued involvement in user research for ASPeL– your participation is integral to understanding the user experience. The research on ASPeL features continues. Please contact our user researcher David.utley@digital.homeoffice.gov.uk to participate. Thank you.  
  
-# Sprint: 158(Marmot)
+# Sprint: 159(Nudibranch aka sea slug)
 
-
-
-
-
-
-
-
-
-
-
-
-Attribution:![Pierre5018, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons](Marmotte_(Montréal).jpg)
-
-
-
-
-
-
-
-
-
-# Completed this Sprint
-We completed the following:
-1) Further improvements to Named persons' role nominations, which have been added behind the feature flag
-2) We fixed some of the change highlighting issues such as; Coloured Badges for - changed, amended, complete, incomplete, in progress, scenarios
-3) We also fixed Change Hilighting issues in the Protocols section, for badges to appear correctly when protocols are new, removed, moved up or moved down
-4) A SPIKE: To understand the data in actioned-tasks-raw download
-5) Further change highlighting fixes implemented for; New step added and removed before submission
-6) And new protocols added and removed before submission
-7) We finalised and agreed a more efficient process of working on the support board
-8) We completed the user research on Standard protocols
-9) And shared the standard protocols prototype with ASRU for feedback
-    
-
-
-
-
-
-
-
-# Bugs Done or Closed this Sprint
-![bugs fixed 02072025](Bugs020725.JPG)
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# New Sprint 159 (Nudibranch-aka sea slug)
 
 
 
@@ -88,17 +27,81 @@ attribution:![Minette Layne from Seattle, Washington, USA, CC BY 2.0 <https://cr
 
 
 
-Interesting fact about Nudibranchia - aka sea slugs: They come in a great variety of colours, these colours represent their toxicity.
 
-# Planned for this Sprint 159(Nudibranch)
+# Completed this Sprint
+We completed the following:
+1) Further improvements to Named persons' role nominations, which have been added behind the feature flag
+2) We fixed the problem that prevented NTS Reduction changes to be highlighted correctly, now the animal count before and after changes are highlighted correctly.
+3) We completed further improvements to the Named Persons' application process in the area of declarations and NVS module details, these changes remain behind the feature flag
+4) We added a warning to the PEL Holder to download any RoPs attached to a Project licence before it is transferred out of the establishment
+5) We are testing the Named Persons' improvement work as development progresses before we declare everything Done.
+6) In testing and for imminent release: We have improved the sequence of writing or answering the animals re-used question.
+7) In testing and for imminent release: A bug preventing New Comments from appearing on protocols which prevents inspectors from commenting on protocols and project titles.
+8) In testing and for imminent release: We have added a column for establishments to add Project Licence number to RoPs returns
+
+
+
+    
+
+
+
+
+
+
+
+# Bugs Done or Closed this Sprint
+![bugs fixed 30072025](Bugs)
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# New Sprint 160 (Okapi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interesting fact about Okapi: Related to the giraffe, the only animal with the a tongue long enough to reach its ears.
+
+# Planned for this Sprint 160(Okapi)
 WE will;
 
 1) Continue to improve the process of nominating people for named roles in establishments, we are on course to complete this work this Sprint.
-2) Complete the prioritised, outstanding RoPs requirements. 
-4) Implement research feedback and inspector requirements into the finalised User Interface for the standard protocols design
-5) Run workshops with key ASRU people to finalise standard protocols content.
-6) Complete the fix for Change Highlighting where comments are currently not highlighting correctly
-7) Complete the upgrade of REACT to the latest version on ASPeL for improved performance.
+2) Complete outstanding RoPs requirements for PPL transfer. 
+3) Complete any outstanding change highlighting issues or bugs.
+4) Complete the upgrade of REACT to the latest version on ASPeL for improved performance on ASPeL
+5) HBA file replacement - create copy deck and hand over to dev
+6) PIL-E - resolve queries with ASRU and (pending dev spike/doiscovery) and hand over to dev
+7) Named Persons - prepare for demo and get sign-off
+8) Standard Protocols - specify a design framework to hand over to dev (while we continue with agreeing content)
  
   
    
