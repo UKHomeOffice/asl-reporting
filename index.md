@@ -3,6 +3,7 @@
 ## 2025 Delivery Reports
 
 **[Report Wednesday 27th August Sprint 160(Okapi)]()**
+
 [Report Wednesday 30th July Sprint 159(Nudibranch)](report30072025.md)
 
 [Report Wednesday 02nd July 2025 Sprint 158(Marmot)](graphs/report02072025.md)
