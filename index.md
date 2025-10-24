@@ -2,11 +2,13 @@
 
 ## 2025 Delivery Reports
 
-**[Report Wednesday 24th September Sprint 161(Pangolin)](report24092025.md)**
+**[Report Wednesday 22nd October 2025 Sprint 162(quetzal)](report22102025.md)**
 
-[Report Wednesday 27th August Sprint 160(Okapi)](report27082025.md)
+[Report Wednesday 24th September 2025 Sprint 161(Pangolin)](report24092025.md)
 
-[Report Wednesday 30th July Sprint 159(Nudibranch)](report30072025.md)
+[Report Wednesday 27th August 2025 Sprint 160(Okapi)](report27082025.md)
+
+[Report Wednesday 30th July 2025 Sprint 159(Nudibranch)](report30072025.md)
 
 [Report Wednesday 02nd July 2025 Sprint 158(Marmot)](graphs/report02072025.md)
 
