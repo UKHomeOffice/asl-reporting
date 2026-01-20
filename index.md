@@ -1,6 +1,6 @@
 # ASPeL Delivery Reports
 
-## 2026 Delivery Reoprts
+## 2026 Delivery Reports
 
 **[Report Wednesday 14th January 2026 Sprint 164(snow leopard)](report14012026.md)**
 
