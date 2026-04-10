@@ -2,11 +2,11 @@
 
 ## 2026 Delivery Reports
 
-**[Report Wednesday 08 April 2026 Sprint 167(vampire crab)(report08042026.md)**
+**[Report Wednesday 08th April 2026 Sprint 167(vampire crab)(report08042026.md)**
 
-[Report Wednesday 11 March 2026 Sprint 166(uakari)](report11032026.md)
+[Report Wednesday 11th March 2026 Sprint 166(uakari)](report11032026.md)
 
-[Report Wednesday 11 February 2026 Sprint 165(Tamarin)](report11022026.md)
+[Report Wednesday 11th February 2026 Sprint 165(Tamarin)](report11022026.md)
 
 [Report Wednesday 14th January 2026 Sprint 164(snow leopard)](report14012026.md)
 
