@@ -2,7 +2,9 @@
 
 ## 2026 Delivery Reports
 
-**[Report Wednesday 08th April 2026 Sprint 167(vampire crab)](report08042026.md)**
+**[Report Wednesday 3rd June 2026 Sprint 169(Xingu river ray)](report03062026.md)**
+
+[Report Wednesday 08th April 2026 Sprint 167(vampire crab)](report08042026.md)
 
 [Report Wednesday 11th March 2026 Sprint 166(uakari)](report11032026.md)
 
