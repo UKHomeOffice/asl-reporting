@@ -2,7 +2,9 @@
 
 ## 2026 Delivery Reports
 
-**[Report Wednesday 01 July 2026 Sprint 170(Yak)](report01072026.md)**
+**[Report Wednesday 29th July 2026 Sprint 171(zig zag heron)](report29072026.md)**
+
+[Report Wednesday 01 July 2026 Sprint 170(Yak)](report01072026.md)
 
 [Report Wednesday 3rd June 2026 Sprint 169(Xingu river ray)](report03062026.md)
 
